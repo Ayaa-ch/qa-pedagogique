@@ -1,0 +1,16 @@
+{
+  "id": "HIST_001",
+  "type": "exercice",
+  "matiere": "histoire",
+  "niveau": "lycee",
+  "langue_attendue": "fr",
+  "enonce": "",
+  "solution": "La Première Guerre mondiale a pris fin le 11 novembre 1918 avec la signature de l'armistice.",
+  "explication": "L'armistice a été signé dans un wagon de chemin de fer dans la forêt de Compiègne.",
+  "questions": [],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:30:00",
+    "pages": 1
+  }
+}

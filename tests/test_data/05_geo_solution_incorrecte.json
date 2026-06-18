@@ -1,0 +1,22 @@
+{
+  "id": "GEO_001",
+  "type": "exercice",
+  "matiere": "geographie",
+  "niveau": "college",
+  "langue_attendue": "fr",
+  "enonce": "Citer les principales caractéristiques du climat méditerranéen.",
+  "solution": "La révolution française de 1789 a été causée par la crise financière de l'État, les inégalités sociales entre les trois ordres et les idées des Lumières. Elle a abouti à la Déclaration des droits de l'homme.",
+  "explication": "Ce climat se caractérise par des étés chauds et secs et des hivers doux et humides.",
+  "questions": [
+    {
+      "id": "Q1",
+      "texte": "Quelles sont les températures en été dans ce climat ?",
+      "reponse": "Chaudes et sèches"
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:20:00",
+    "pages": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "FR_001",
+  "type": "exercice",
+  "matiere": "francais",
+  "niveau": "college",
+  "langue_attendue": "fr",
+  "enonce": "The student must identify the subject and the verb in the following sentence: Le chat dort sur le canapé.",
+  "solution": "The subject is 'Le chat' and the verb is 'dort'. This is a simple declarative sentence.",
+  "explication": "In French grammar, the subject performs the action described by the verb.",
+  "questions": [
+    {
+      "id": "Q1",
+      "texte": "What is the subject of the sentence?",
+      "reponse": "Le chat"
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:10:00",
+    "pages": 1
+  }
+}

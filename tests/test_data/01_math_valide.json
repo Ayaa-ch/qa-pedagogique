@@ -1,0 +1,27 @@
+{
+  "id": "MATH_001",
+  "type": "exercice",
+  "matiere": "mathematiques",
+  "niveau": "terminale",
+  "langue_attendue": "fr",
+  "enonce": "Calculer la dérivée de la fonction f(x) = 3x² + 2x - 5",
+  "solution": "f'(x) = 6x + 2",
+  "explication": "On applique la règle de dérivation : la dérivée de ax^n est n*ax^(n-1). Donc (3x²)' = 6x, (2x)' = 2, et (-5)' = 0.",
+  "questions": [
+    {
+      "id": "Q1",
+      "texte": "Quelle est la dérivée de 3x² ?",
+      "reponse": "6x"
+    },
+    {
+      "id": "Q2",
+      "texte": "Quelle est la dérivée de 2x ?",
+      "reponse": "2"
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:00:00",
+    "pages": 1
+  }
+}

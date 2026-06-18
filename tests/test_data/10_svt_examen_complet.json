@@ -1,0 +1,54 @@
+{
+  "id": "SVT_EXAM_001",
+  "type": "examen",
+  "matiere": "svt",
+  "niveau": "terminale",
+  "langue_attendue": "fr",
+  "titre": "Examen de SVT — La cellule et son fonctionnement",
+  "duree_minutes": 60,
+  "exercices": [
+    {
+      "id": "EX1",
+      "numero": 1,
+      "enonce": "Décrire la structure d'une cellule animale en citant au moins 4 organites.",
+      "solution": "Une cellule animale est composée de : 1) Le noyau (contient l'ADN), 2) Les mitochondries (production d'énergie), 3) Le réticulum endoplasmique (synthèse des protéines), 4) L'appareil de Golgi (tri et transport des protéines), 5) Les lysosomes (digestion cellulaire).",
+      "points": 4,
+      "questions": [
+        {
+          "id": "Q1",
+          "texte": "Quel organite contient l'ADN ?",
+          "reponse": "Le noyau"
+        },
+        {
+          "id": "Q2",
+          "texte": "Quel est le rôle des mitochondries ?",
+          "reponse": "La production d'énergie (ATP)"
+        }
+      ]
+    },
+    {
+      "id": "EX2",
+      "numero": 2,
+      "enonce": "Expliquer la différence entre une cellule procaryote et une cellule eucaryote.",
+      "solution": "La cellule procaryote (ex: bactérie) ne possède pas de noyau délimité par une membrane. La cellule eucaryote (ex: cellule animale ou végétale) possède un noyau entouré d'une membrane nucléaire. Les eucaryotes possèdent aussi plus d'organites membranaires.",
+      "points": 6,
+      "questions": [
+        {
+          "id": "Q1",
+          "texte": "Donner un exemple de cellule procaryote.",
+          "reponse": "La bactérie"
+        },
+        {
+          "id": "Q2",
+          "texte": "Quelle est la différence principale entre les deux types ?",
+          "reponse": "La présence ou absence d'un noyau membranaire"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:45:00",
+    "pages": 3
+  }
+}

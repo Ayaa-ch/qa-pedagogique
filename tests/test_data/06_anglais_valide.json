@@ -1,0 +1,27 @@
+{
+  "id": "ENG_001",
+  "type": "exercice",
+  "matiere": "anglais",
+  "niveau": "college",
+  "langue_attendue": "en",
+  "enonce": "Complete the sentence using the correct form of the verb 'to be': She ___ a doctor.",
+  "solution": "She is a doctor. The verb 'to be' in the third person singular present tense is 'is'.",
+  "explication": "In English, the verb 'to be' changes depending on the subject: I am, you are, he/she/it is, we are, they are.",
+  "questions": [
+    {
+      "id": "Q1",
+      "texte": "What is the correct form of 'to be' for 'she'?",
+      "reponse": "is"
+    },
+    {
+      "id": "Q2",
+      "texte": "Give another example with 'he'.",
+      "reponse": "He is a student."
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:25:00",
+    "pages": 1
+  }
+}

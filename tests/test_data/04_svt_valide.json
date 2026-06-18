@@ -1,0 +1,27 @@
+{
+  "id": "SVT_001",
+  "type": "exercice",
+  "matiere": "svt",
+  "niveau": "college",
+  "langue_attendue": "fr",
+  "enonce": "Expliquer le rôle de la chlorophylle dans la photosynthèse.",
+  "solution": "La chlorophylle est un pigment vert qui absorbe la lumière solaire. Cette énergie lumineuse est utilisée par la plante pour transformer le dioxyde de carbone (CO2) et l'eau (H2O) en glucose et en dioxygène (O2).",
+  "explication": "La chlorophylle se trouve dans les chloroplastes des cellules végétales.",
+  "questions": [
+    {
+      "id": "Q1",
+      "texte": "Où se trouve la chlorophylle dans la cellule végétale ?",
+      "reponse": "Dans les chloroplastes"
+    },
+    {
+      "id": "Q2",
+      "texte": "Quels sont les produits de la photosynthèse ?",
+      "reponse": "Le glucose et le dioxygène (O2)"
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:15:00",
+    "pages": 1
+  }
+}

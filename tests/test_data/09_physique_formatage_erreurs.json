@@ -1,0 +1,32 @@
+{
+  "id": "PHY_001",
+  "type": "exercice",
+  "matiere": "physique",
+  "niveau": "terminale",
+  "langue_attendue": "fr",
+  "enonce": "Un objet de masse m=2kg est soumis à une force F=10N .Calculer son accélération   en utilisant la deuxième loi de Newton",
+  "solution": "D'après la deuxième loi de Newton:F=ma  donc a=F/m=10/2=5 m/s²  .L'accélération est de 5m/s².",
+  "explication": "La deuxième loi de Newton stipule que la somme des forces est égale à la masse multipliée par l'accélération  .",
+  "questions": [
+    {
+      "id": "Q3",
+      "texte": "Quelle est la formule de la deuxième loi de Newton ?",
+      "reponse": "F = ma"
+    },
+    {
+      "id": "Q1",
+      "texte": "Calculer l'accélération si m=2kg et F=10N",
+      "reponse": "a = 5 m/s²"
+    },
+    {
+      "id": "Q5",
+      "texte": "Quelle est l'unité de l'accélération ?",
+      "reponse": "m/s²"
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "generated_at": "2025-01-15T10:40:00",
+    "pages": 1
+  }
+}
