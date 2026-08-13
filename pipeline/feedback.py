@@ -8,14 +8,12 @@ import requests
 import markdown as md_lib
 from xhtml2pdf import pisa
 
-# Assurez-vous que ce module helpers existe avec la fonction ensure_ollama_server
 from helpers import ensure_ollama_server
 
-# Configuration
 RAPPORT_PDF = "rapport_analyse.pdf"
 OLLAMA_URL = "http://localhost:11434/api/chat"
 OLLAMA_MODEL = "qwen2.5:7b"
-OLLAMA_NUM_CTX = 8192   # Réduit pour éviter les répétitions
+OLLAMA_NUM_CTX = 8192   
 
 def call_ollama_text(messages: list[dict], model: str = OLLAMA_MODEL) -> tuple[str, float]:
     """Appelle l'API Ollama et retourne la réponse et le temps d'exécution."""
@@ -33,7 +31,6 @@ def call_ollama_text(messages: list[dict], model: str = OLLAMA_MODEL) -> tuple[s
     elapsed_ms = (time.perf_counter() - started_at) * 1000
     return response.json()["message"]["content"], elapsed_ms
 
-# Prompt système – style naturel et explicatif
 _SYSTEM_PROMPT = (
     "Tu es un expert en relecture et correction pédagogique. "
     "Tu rédiges en français un rapport d'analyse naturel et lisible, "
@@ -45,7 +42,7 @@ _SYSTEM_PROMPT = (
     "d'explications, pas de tags techniques."
 )
 
-# Prompt utilisateur – demande une explication, pas un inventaire
+
 _ECRITURE_PROMPT = """Rédige un rapport Markdown structuré qui **explique** ce qui a été fait, sans forme imposée. Ne reprends pas mécaniquement les étapes fournies : synthétise-les dans tes propres mots.
 
 1. **Ce qui a été corrigé** – Raconte ce que le pipeline a modifié dans le document, en prose : réponses générées pour des marqueurs manquants (indique l'exercice/correction concerné, le **marqueur exact** généré, ex. « 2.a) », « 4.b) », et la question traitée), restructurations (une réponse globale découpée en sous-réponses alignées sur les marqueurs de l'énoncé, en citant ces marqueurs), réordonnancements, titres régénérés, rejets (orphelins, doublons, hors-sujet). Explique pourquoi chaque action a été nécessaire, en restant simple et concret. Pour le rendu, indique combien d'erreurs LaTeX/HTML/Markdown ont été corrigées et ce qu'elles avaient en commun (ex. : sauts de ligne dans les formules $$, blocs non fermés). Le détail bloc par bloc est dans `rapport_corrections.txt` ; tu n'as pas à le recopier ici.
@@ -136,7 +133,7 @@ def render_pdf(markdown_text: str, output_path: Path) -> None:
         markdown_text,
         extensions=["tables", "fenced_code", "sane_lists"],
     )
-    # Style épuré, avec police serif et marges généreuses
+
     styled = (
         "<html><head><meta charset='utf-8'>"
         "<style>"
@@ -168,11 +165,10 @@ def write_feedback_report(
     et retourne le chemin du PDF et une éventuelle note.
     """
     directory = Path(directory)
-    ensure_ollama_server()   # Dépend de votre helper
+    ensure_ollama_server()  
 
     content = generate_feedback(steps, counts, meta)
 
-    # Ajout des notes et renvoi au fichier de détails
     content = content.strip() + "\n\n" + _NOTE_LIMITES
     content += "\n\n> Détail de chaque bloc modifié : consulter `rapport_corrections.txt`."
 

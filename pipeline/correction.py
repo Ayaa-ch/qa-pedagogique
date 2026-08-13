@@ -180,7 +180,7 @@ def _apply_slide_titles(doc: Document, titles: dict[int, str]) -> None:
 
 # SEQUENCE / ORDONNANCEMENT 
 _EXERCISE_LABEL = {"fr": "Exercice", "ar": "تمرين"}
-_CORRECTION_LABEL = {"fr": "Correction - Exercice", "ar": "تصحيح - تمرين"}
+_CORRECTION_LABEL = {"fr": "Correction - Exercice", "ar": "تمرين"}
 
 def reorder_and_finalize_titles(
     sections: list[Section],

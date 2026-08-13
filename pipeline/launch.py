@@ -87,26 +87,20 @@ def _write_feedback_report(result, path: Path, total_docs: int) -> None:
             },
             directory=REPORT_DIR,
         )
-    if feedback["pdf"]:
-        print(f"PDF du rapport d'analyse: {feedback['pdf']}")
-    if feedback["note"]:
-        print(f"[WARN] {feedback['note']}")
+
 
 
 def main() -> int:
     if len(sys.argv) < 2:
-        print("Usage: python launch.py {nom.json}")
         return 1
 
     path = Path(sys.argv[1])
     if not path.exists():
-        print(f"Fichier introuvable: {path}")
         return 1
 
     try:
         ensure_ollama_server()
-    except Exception as exc:
-        print(f"Ollama indisponible: {exc}")
+    except Exception:
         return 1
 
     with open(path, encoding="utf-8") as f:
@@ -122,12 +116,9 @@ def main() -> int:
 
     if result.language_rejections:
         _write_report(result, report_path)
-        print(f"Rejet langue: aucun fichier corrige genere.")
-        print(f"Rapport detaille ecrit dans: {report_path}")
         try:
             _write_feedback_report(result, path, total_docs)
-        except Exception as exc:
-            print(f"Rapport LLM impossible: {exc}")
+        except Exception:
             return 1
         return 0
 
@@ -140,15 +131,11 @@ def main() -> int:
         orphans_path = DATA_DIR / (path.stem + "_orphans" + path.suffix)
         with open(orphans_path, "w", encoding="utf-8") as f:
             json.dump(orphans_raw, f, ensure_ascii=False, indent=2)
-        print(f"Orphelins ecrits dans: {orphans_path}")
 
     _write_report(result, report_path)
-    print(f"Fichier corrige ecrit dans: {out_path}")
-    print(f"Rapport detaille ecrit dans: {report_path}")
     try:
         _write_feedback_report(result, path, total_docs)
-    except Exception as exc:
-        print(f"Rapport LLM impossible: {exc}")
+    except Exception:
         return 1
     return 0
 
