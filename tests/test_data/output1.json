@@ -1,0 +1,2297 @@
+[
+  {
+    "title": "Transformations liées à des réactions acide-base",
+    "topic": "pc",
+    "grade": ["Grade_12_SP"],
+    "layout_mode": "horizontal",
+    "content": {
+      "schemaVersion": "2.0.0",
+      "meta": {
+        "language": "fr"
+      },
+      "sections": [
+        {
+          "id": 1,
+          "title": "Résumé du Cours",
+          "kind": "resume",
+          "slides": [
+            {
+              "id": 101,
+              "order": 1,
+              "title": "Autoprotolyse de l'eau et produit ionique",
+              "blocks": [
+                {
+                  "id": 1001,
+                  "data": {
+                    "text": "**Autoprotolyse de l'eau :**<br>L'eau pure n'est pas totalement inerte : elle contient des ions oxonium $\\text{H}_3\\text{O}^+$ et des ions hydroxyde $\\text{HO}^-$, produits par la réaction d'autoprotolyse de l'eau :",
+                    "variant": "p"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1002,
+                  "data": {
+                    "text": "$$\n\\text{H}_2\\text{O}_{(l)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{H}_3\\text{O}^+_{(aq)} + \\text{HO}^-_{(aq)}\n$$",
+                    "variant": "regle"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1003,
+                  "data": {
+                    "text": "**Produit ionique de l'eau $K_e$ :**<br>La constante d'équilibre de cette réaction est appelée **produit ionique de l'eau** :<br><br>$$\nK_e = [\\text{H}_3\\text{O}^+] \\cdot [\\text{HO}^-]\n$$<br><br>On définit également $pK_e$ par :<br><br>$$\npK_e = -\\log K_e \\iff K_e = 10^{-pK_e}\n$$<br><br>**À $25^\\circ\\text{C}$ :** $K_e = 1{,}0 \\cdot 10^{-14}$ et $pK_e = 14{,}0$.",
+                    "variant": "def"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1004,
+                  "data": {
+                    "text": "**Relations utiles déduites de la définition du $pH$ et de $pK_e$ :**<br><br>$$\npH = pK_e + \\log [\\text{HO}^-]\n$$<br><br>$$\n[\\text{HO}^-] = 10^{(pH - pK_e)}\n$$",
+                    "variant": "regle"
+                  },
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "id": 102,
+              "order": 2,
+              "title": "Solutions neutre, acide et basique à 25°C",
+              "blocks": [
+                {
+                  "id": 1005,
+                  "data": {
+                    "text": "À $25^\\circ\\text{C}$, le caractère acide, neutre ou basique d'une solution est déterminé par la comparaison des concentrations $[\\text{H}_3\\text{O}^+]$ et $[\\text{HO}^-]$, ou de manière équivalente par la valeur du $pH$ :",
+                    "variant": "p"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1006,
+                  "data": {
+                    "text": "| **Type de solution** | **Condition sur les concentrations** | **Condition sur le $pH$** |\n|---|---|---|\n| Neutre | $[\\text{H}_3\\text{O}^+] = [\\text{HO}^-]$ | $pH = 7$ |\n| Acide | $[\\text{H}_3\\text{O}^+] > [\\text{HO}^-]$ | $pH < 7$ |\n| Basique | $[\\text{H}_3\\text{O}^+] < [\\text{HO}^-]$ | $pH > 7$ |",
+                    "variant": "regle"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1007,
+                  "data": {
+                    "text": "⚠ Ces critères ($pH = 7$ pour la neutralité, etc.) sont valables **uniquement à $25^\\circ\\text{C}$**, car $K_e$ dépend de la température. À une autre température, $pK_e \\neq 14$ et la neutralité correspond à $pH = \\frac{pK_e}{2}$.",
+                    "variant": "warning"
+                  },
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "id": 103,
+              "order": 3,
+              "title": "Constante d'acidité d'un couple acide/base",
+              "blocks": [
+                {
+                  "id": 1008,
+                  "data": {
+                    "text": "**Définition de la constante d'acidité $K_A$ :**<br>Pour tout couple acide/base $\\text{HA}/\\text{A}^-$, on considère la réaction de l'acide $\\text{HA}$ avec l'eau :",
+                    "variant": "p"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1009,
+                  "data": {
+                    "text": "$$\n\\text{HA}_{(aq)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{A}^-_{(aq)} + \\text{H}_3\\text{O}^+_{(aq)}\n$$",
+                    "variant": "regle"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 1010,
+                  "data": {
+                    "text": "La constante d'équilibre associée à cette réaction est appelée **constante d'acidité** du couple $\\text{HA}/\\text{A}^-$ :<br><br>$$\nK_A = \\frac{[\\text{A}^-] \\cdot [\\text{H}_3\\text{O}^+]}{[\\text{HA}]}\n$$<br><br>$K_A$ est une grandeur **sans unité**, qui ne dépend que de la **température** et de la nature du couple acide/base considéré.",
+                    "variant": "def"
+                  },
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Exercices",
+          "kind": "exercises",
+          "slides": [
+            {
+              "id": 201,
+              "title": "Exercice 1",
+              "blocks": [
+                {
+                  "id": 2001,
+                  "data": {
+                    "text": "Compléter les phrases suivantes concernant les transformations associées à des réactions acido-basiques.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2002,
+                  "data": {
+                    "prompt": "**a)** L'équation de la réaction ...(1) ... de l'eau s'écrit :<br>$$\\text{H}_2\\text{O} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_3\\text{O}^+_{(aq)} + \\text{HO}^-_{(aq)}$$<br><br>**b)** Le produit ionique de l'eau est ... (2) ... à une température donnée.<br><br>**c)** Le $pH$ d'une solution acide est ... (3) ... à $\\frac{1}{2} pK_e$.<br><br>**d)** Le $pH$ d'une solution basique est ... (4) ... à $\\frac{1}{2} pK_e$.<br><br>**e)** Pour des solutions aqueuses d'acide de même concentrations apportées en acide, plus le $pK_A$ est faible, plus le $K_A$ est ... (5) ... plus le $pH$ est ... (6) ...<br><br>**f)** Dans une solution aqueuse de $\\text{HA}$ et de $\\text{A}^-$ de constante d'acidité $K_A$ pour $pH > pK_A$ ... (7) ... est l'espèce prédominante.<br><br>**g)** Le produit $[\\text{H}_3\\text{O}^+]_{eq} \\times [\\text{HO}^-]_{eq}$ se nomme ........... de l'eau.<br><br>**h)** La constante d'équilibre $K_e$ est associée à la réaction ........... de l'eau.<br><br>**i)** Une solution est dite ........... si $[\\text{H}_3\\text{O}^+]_{eq} < [\\text{HO}^-]_{eq}$.<br><br>**j)** La ........... $K_A$ d'un couple acide /base est la constante d'équilibre associée à la réaction de ........... du couple avec l'eau.<br><br>**k)** Le domaine de ........... de l'acide d'un couple acide/ base est le domaine de $pH$ tel que [acide]>[base].<br><br>**l)** Si le $pH$ d'une solution appartient à la zone de virage d'un indicateur coloré, la solution prend la teinte ........... de l'indicateur."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2003,
+                  "data": {
+                    "text": "Le produit ionique de l'eau est défini par $K_e = [\\text{H}_3\\text{O}^+]_{eq} \\cdot [\\text{HO}^-]_{eq}$. À $25^\\circ\\text{C}$, $K_e = 10^{-14}$ et $pK_e = 14$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 202,
+              "title": "Exercice 2",
+              "blocks": [
+                {
+                  "id": 2004,
+                  "data": {
+                    "text": "Répondre par vrai ou faux aux affirmations suivantes.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2005,
+                  "data": {
+                    "prompt": "**1.a)** Pour des solutions aqueuses de base de même concentration, plus le $pK_A$ du couple acide/base est petit, plus le taux d'avancement final de la réaction de la base avec l'eau est petit.<br><br>**1.b)** Le diagramme de prédominance donne pour un couple acide/base l'évolution des proportions de la forme acide et de la forme basique en fonction du $pH$.<br><br>**1.c)** La relation entre le $pH$ d'une solution aqueuse contenant les deux espèces d'un couple acide /base et le $pK_A$ de ce couple est : $pK_A = pH - \\log \\frac{[base]}{[acide]}$<br><br>**2.a)** À l'équivalence, la courbe représentant la dérivée du $pH$, $\\frac{dpH}{dV} = f(V)$ présente un pic.<br><br>**2.b)** Une réaction de titrage doit-être lente.<br><br>**2.c)** La courbe d'un titrage $pH$-métrique présente un saut de $pH$.<br><br>**2.d)** Dans le cas du titrage d'une solution d'acide chlorhydrique par une solution d'hydroxyde de sodium, le $pH$ à l'équivalence est égal à 7."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2006,
+                  "data": {
+                    "text": "Une réaction de titrage doit être rapide, totale et unique. L'équivalence est le point où les réactifs ont été introduits dans les proportions stœchiométriques."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 203,
+              "title": "Exercice 3",
+              "blocks": [
+                {
+                  "id": 2007,
+                  "data": {
+                    "text": "Pour chaque question, choisir la ou les bonnes réponses.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2008,
+                  "data": {
+                    "prompt": "**1.a)** Le $pK_A$ du couple $\\text{H}_3\\text{O}^+_{(aq)}/\\text{H}_2\\text{O}_{(l)}$ est égal à : 0 ; 7,0 ; 14,0<br><br>**1.b)** Connaissant $[\\text{H}_3\\text{O}^+]_{eq}$, on peut calculer $[\\text{HO}^-]_{eq}$ grâce à la relation suivante : $[\\text{HO}^-]_{eq} = \\frac{K_e}{[\\text{H}_3\\text{O}^+]_{eq}}$ ; $[\\text{HO}^-]_{eq} = K_e \\times [\\text{H}_3\\text{O}^+]_{eq}$ ; $[\\text{HO}^-]_{eq} = \\frac{[\\text{H}_3\\text{O}^+]_{eq}}{K_e}$<br><br>**1.c)** Les couples acido-basiques $\\text{HA}_{1(aq)}/\\text{A}^-_{1(aq)}$ et $\\text{HA}_{2(aq)}/\\text{A}^-_{2(aq)}$ ont pour $pK_A$ respectifs $pK_{A1}$ et $pK_{A2}$. On considère la réaction : $\\text{HA}_1 + \\text{A}^-_2 \\rightleftharpoons \\text{A}^-_1 + \\text{HA}_2$. La constante d'équilibre associée est : $\\frac{K_{A1}}{K_{A2}}$ ; $\\frac{K_{A2}}{K_{A1}}$ ; $K_{A1} \\times K_{A2}$<br><br>**2.** À $25^\\circ\\text{C}$, le produit ionique de l'eau vaut : a- 14 ; b- $1,0 \\cdot 10^{-14}$ ; c- $1,0 \\cdot 10^{14}$<br><br>**3.** Le $pH$ d'une solution aqueuse vaut : a- $pH = pK_e + \\log [\\text{H}_3\\text{O}^+]$ ; b- $pH = pK_e + \\log [\\text{HO}^-]$ ; c- $pH = -\\log [\\text{HO}^-]$ ; d- $pH = -\\log [\\text{H}_3\\text{O}^+]$<br><br>**4.** Pour le couple acide/base: $\\text{HA}/\\text{A}^-$ en solution aqueuse la constante d'acidité $K_A$ vaut : a- $K_A = \\frac{[\\text{HA}]}{[\\text{A}^-][\\text{H}_3\\text{O}^+]}$ ; b- $K_A = \\frac{[\\text{HA}][\\text{H}_3\\text{O}^+]}{[\\text{A}^-]}$ ; c- $K_A = \\frac{[\\text{A}^-][\\text{H}_3\\text{O}^+]}{[\\text{HA}]}$<br><br>**5.** Dans une solution aqueuse contenant un couple acide /base de constante d'acidité $K_A$, la base est l'espèce prédominante si : a- $pH > pK_e$ ; b- $pH > pK_A$ ; c- $pH < pK_A$ ; d- $pH > pK_e + pK_A$<br><br>**6.a)** Une réaction de titrage doit être : totale ; limitée.<br><br>**6.b)** Si on note $V$ le volume de solution titrée et $V_E$ le volume versé à l'équivalence, le réactif titrant est réactif limitant pour : $V < V_E$ ; $V > V_E$.<br><br>**6.c)** Pour effectuer le titrage $pH$-métrique d'une solution d'acide par une solution de base, on doit utiliser : un $pH$-mètre ; un conductimètre."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2009,
+                  "data": {
+                    "text": "La constante d'acidité $K_A$ d'un couple $\\text{HA}/\\text{A}^-$ est la constante d'équilibre de la réaction : $\\text{HA} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{A}^- + \\text{H}_3\\text{O}^+$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 204,
+              "title": "Exercice 4",
+              "blocks": [
+                {
+                  "id": 2010,
+                  "data": {
+                    "text": "On donne un tableau avec des couples acide/base et leurs $pK_A$.<br><br>| Couple | $pK_A$ |\n|---|---|\n| $\\text{HCO}_2\\text{H}/\\text{HCO}_2^-$ | 3,8 |\n| $\\text{CH}_3\\text{NH}_3^+/\\text{CH}_3\\text{NH}_2$ | 10,7 |",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2011,
+                  "data": {
+                    "prompt": "**1.** À l'aide des diagrammes de prédominance déterminer les valeurs des $pK_A$ des couples : acide formique $\\text{HCO}_2\\text{H}$ /ion formiate $\\text{HCO}_2^-$ et ion méthylammonium $\\text{CH}_3\\text{NH}_3^+$ / méthylamine $\\text{CH}_3\\text{NH}_2$.<br><br>**2.a)** On mélange une solution d'acide formique et une solution de méthylamine. L'acide formique et la méthylamine peuvent-ils coexister ?<br><br>**2.b)** Ecrire l'équation de la réaction entre l'acide formique et la méthylamine et calculer sa constante d'équilibre."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2012,
+                  "data": {
+                    "text": "La constante d'équilibre $K$ d'une réaction entre l'acide 1 et la base 2 est donnée par $K = 10^{pK_{A2} - pK_{A1}}$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 205,
+              "title": "Exercice 5",
+              "blocks": [
+                {
+                  "id": 2013,
+                  "data": {
+                    "text": "On mélange une solution d'acide éthanoïque et une solution d'hydroxyde de sodium.<br>Données : $K_A(\\text{CH}_3\\text{COOH}/\\text{CH}_3\\text{COO}^-) = 1,8 \\times 10^{-5}$ ; et $K_e = 1,0 \\times 10^{-14}$.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2014,
+                  "data": {
+                    "prompt": "**1.** Ecrire l'équation de la réaction chimique qui a lieu lors de ce mélange.<br><br>**2.** Donner l'expression de la constante d'équilibre $K$ associée à l'équation de cette réaction acido-basique.<br><br>**3.** Donner l'expression de la constante d'équilibre $K$ en fonction du produit ionique de l'eau et de la constante d'acidité du couple acido-basique : $\\text{CH}_3\\text{COOH}/\\text{CH}_3\\text{COO}^-$.<br><br>**4.a)** Calculer la valeur de la constante d'équilibre de la réaction acido-basique étudiée.<br><br>**4.b)** La réaction est-elle totale ?"
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2015,
+                  "data": {
+                    "text": "Une réaction est considérée comme totale si sa constante d'équilibre $K$ est supérieure à $10^4$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 206,
+              "title": "Exercice 6",
+              "blocks": [
+                {
+                  "id": 2016,
+                  "data": {
+                    "text": "Étude de bases et leurs acides conjugués.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2017,
+                  "data": {
+                    "prompt": "**1.** L'ammoniac $\\text{NH}_3$ et la méthylamine $\\text{CH}_3\\text{NH}_2$ sont des bases. Quels sont leurs acides conjugués ?<br><br>**2.** On mélange une solution aqueuse de chlorure de méthylammonium : $(\\text{CH}_3\\text{NH}_3^+ + \\text{Cl}^-)$ et une solution aqueuse d'hydroxyde de sodium $(\\text{Na}^+ + \\text{HO}^-)$. Ecrire l'équation de la réaction chimique acido-basique qui se produit.<br><br>**3.** Exprimer la constante d'équilibre $K$ associée à l'équation en fonction de la constante d'acidité du couple acido-basique étudié et du produit ionique de l'eau.<br><br>**4.** La constante d'acidité du couple étudié précédemment est : $K_A = 2,0 \\times 10^{-11}$ et $pK_e = 14,00$. La réaction étudiée en 2 est-elle totale ?"
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2018,
+                  "data": {
+                    "text": "L'ion hydroxyde $\\text{HO}^-$ est la base la plus forte pouvant exister dans l'eau."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 207,
+              "title": "Exercice 7",
+              "blocks": [
+                {
+                  "id": 2019,
+                  "data": {
+                    "text": "Les mesures sont effectuées à $25^\\circ\\text{C}$.<br>Données : Couples acide/base :<br>acide éthanoïque/ion éthanoate : $pK_{A1} = 4,7$ ;<br>ion ammonium/ammoniac : $pK_{A2} = 9,2$ ;<br>couples de l'eau : $\\text{H}_3\\text{O}^+/\\text{H}_2\\text{O} : pK_{A} = 0$ ; $\\text{H}_2\\text{O}/\\text{HO}^-(aq) : pK_{A} = 14$",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2020,
+                  "data": {
+                    "prompt": "**1-a)** Soit une solution $S_1$ d'acide éthanoïque de concentration : $C_1 = 2,0 \\times 10^{-2} \\text{ mol/L}$. Ecrire l'équation de la réaction de l'acide avec l'eau.<br><br>**1-b)** Exprimer et calculer la constante d'équilibre associée à l'équation de cette réaction. Peut-on dire que l'acide éthanoïque est un acide faiblement dissocié dans l'eau ?<br><br>**1-c)** La mesure du $pH$ de la solution donne 3,2. Cette mesure confirme-t-elle le résultat précédent ?<br><br>**2-a)** Soit une solution $S_2$ d'ammoniac de concentration molaire : $c_2 = 1,0 \\times 10^{-2} \\text{ mol/L}$. Ecrire l'équation de la réaction de l'ammoniac avec l'eau.<br><br>**2-b)** Exprimer et calculer la constante associée à l'équation de cette réaction. Peut-on dire que l'ammoniac est une base faiblement dissociée dans l'eau ?<br><br>**2-c)** La mesure du $pH$ de cette solution donne 10,6. Cette mesure confirme-t-elle le résultat précédent ?<br><br>**3-a)** À un volume $V$ de solution $S_1$, on ajoute un même volume de solution $S_2$. Ecrire l'équation de la réaction qui a lieu.<br><br>**3-b)** Calculer la constante d'équilibre associée à cette équation. Montrer que l'on peut considérer la réaction comme totale."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2021,
+                  "data": {
+                    "text": "Le taux d'avancement final $\\tau$ est défini par $\\tau = \\frac{x_f}{x_{max}}$. Pour un acide faible dans l'eau, $[\\text{H}_3\\text{O}^+] = 10^{-pH}$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 208,
+              "title": "Exercice 8",
+              "blocks": [
+                {
+                  "id": 2022,
+                  "data": {
+                    "text": "La vitamine C ou acide ascorbique, $\\text{C}_6\\text{H}_8\\text{O}_6$ noté $\\text{HA}$, est vendue en pharmacie sous forme de comprimé « à croquer ». Le but de cet exercice est de déterminer la masse de vitamine C contenue dans un comprimé.<br>Donnée : Masse molaire de l'acide ascorbique : $176 \\text{ g/mol}$.<br>Le comprimé est dissous dans de l'eau (solution $S$). On prélève $V_A = 10,0 \\text{ mL}$ de $S$, on ajoute $20 \\text{ mL}$ d'eau. On titre par une solution de soude $C_B = 2,00 \\times 10^{-2} \\text{ mol/L}$.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2023,
+                  "data": {
+                    "prompt": "**1.** Ecrire l'équation de la réaction entre l'acide ascorbique et l'ion $\\text{HO}^-$.<br><br>**2.** Donner la définition de l'équivalence. Comment est-il possible de repérer le point d'équivalence ? Déterminer ses coordonnées.<br><br>**3.** Préciser quel est le réactif limitant avant, puis après l'équivalence.<br><br>**4.** Calculer la concentration en acide ascorbique dans la solution $S$.<br><br>**5.** En déduire la masse d'acide ascorbique dans un comprimé « à croquer ».<br><br>**6.** La zone de virage du rouge de crésol est $[7,2 - 8,8]$. Peut-on utiliser cet indicateur ?"
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2024,
+                  "data": {
+                    "text": "À l'équivalence d'un titrage acido-basique, on a la relation : $n_{acide} = n_{base}$, soit $C_A \\cdot V_A = C_B \\cdot V_{BE}$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 209,
+              "title": "Exercice 9",
+              "blocks": [
+                {
+                  "id": 2025,
+                  "data": {
+                    "text": "Dans un bécher, on introduit $20,0 \\text{ mL}$ d'une solution $S$ de potasse ou hydroxyde de potassium, puis à la burette, une solution $A$ d'acide chlorhydrique de concentration $C_A = 0,050 \\text{ mol/L}$.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2026,
+                  "data": {
+                    "prompt": "**1.** Faire le schéma du dispositif expérimental.<br><br>**2.** Ecrire l'équation de la réaction entre la solution de potasse $\\text{K}^+ + \\text{HO}^-$, et la solution d'acide chlorhydrique, $\\text{H}_3\\text{O}^+ + \\text{Cl}^-$.<br><br>**3.** Comment peut-on déterminer graphiquement le point d'équivalence ? Donner ses coordonnées.<br><br>**4.** Quelle est la concentration de la solution de potasse ?<br><br>**5.** Dans la liste ci-dessous, proposer un indicateur coloré approprié pour mettre en évidence l'équivalence au cours de ce tirage. Justifier le choix."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2027,
+                  "data": {
+                    "text": "Un indicateur coloré est approprié pour un titrage si sa zone de virage contient le $pH$ à l'équivalence ($pH_E$)."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 210,
+              "title": "Exercice 10",
+              "blocks": [
+                {
+                  "id": 2028,
+                  "data": {
+                    "text": "L'étiquette d'un litre de vinaigre du commerce indique 6 degrés. Le degré d'acidité exprime la masse, en grammes, d'acide éthanoïque pur contenu dans $100 \\text{ g}$ de vinaigre. On désire déterminer la concentration en acide éthanoïque, notée $C$, de ce vinaigre.<br>Données : Masses molaires atomiques : $M_C = 12, M_O = 16, M_H = 1,0$. Densité du vinaigre : 1,02.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2029,
+                  "data": {
+                    "prompt": "**I-1)** Première étape : On prépare une solution $S_1$ de volume $V_1 = 100 \\text{ mL}$ et de concentration molaire en acide éthanoïque $c_1 = c/100 \\text{ mol/L}$. Quel volume $v$ de vinaigre à $6^\\circ$ doit-on prélever pour préparer $S_1$ ?<br><br>**I-2)** Décrire le mode opératoire.<br><br>**II-1)** Deuxième étape : titrage de la solution $S_1$. On prélève $V_1 = 10 \\text{ mL}$ de $S_1$ et on le dose par une solution d'hydroxyde de sodium $C_b = 1,0 \\times 10^{-2} \\text{ mol/L}$. L'équivalence est observée pour $v_b = 10,2 \\text{ mL}$. Ecrire l'équation de la réaction.<br><br>**II-2)** Calculer la concentration $c_1$ de $S_1$. En déduire $c$.<br><br>**II-3)** Calculer le degré d'acidité du vinaigre. Le résultat est-il en accord avec l'indication de l'étiquette ?"
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2030,
+                  "data": {
+                    "text": "La concentration molaire $C$ est liée au degré $d$ et à la masse volumique $\\rho$ par la relation : $C = \\frac{d \\cdot \\rho}{100 \\cdot M}$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 211,
+              "title": "Exercice 11",
+              "blocks": [
+                {
+                  "id": 2031,
+                  "data": {
+                    "text": "L'un des couples régulateurs du $pH$ du sang est le couple ion dihydrogénophosphate/ion hydrogénophosphate, $\\text{H}_2\\text{PO}_4^-/\\text{HPO}_4^{2-}$, de $pK_A = 6,82$ à $37^\\circ\\text{C}$. Le $pH$ du sang varie très peu. Il est voisin de 7,4.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2032,
+                  "data": {
+                    "prompt": "**1.** Calculer le rapport $[\\text{H}_2\\text{PO}_4^-]/[\\text{HPO}_4^{2-}]$ dans le sang.<br><br>**2.** Dans le sang considéré, $[\\text{HPO}_4^{2-}] = 0,275 \\text{ mol/L}$. En déduire $[\\text{H}_2\\text{PO}_4^-]$.<br><br>**3.** Une réaction produit $0,035 \\text{ mol}$ d'acide lactique, $\\text{C}_3\\text{H}_6\\text{O}_3$, par litre de sang. Ecrire l'équation de la réaction qui se produit entre l'acide lactique et l'ion $\\text{HPO}_4^{2-}$.<br><br>**4.** En supposant que cette réaction est totale, déterminer les concentrations de $\\text{H}_2\\text{PO}_4^-$ et $\\text{HPO}_4^{2-}$, puis vérifier que le $pH$ du sang devient voisin de 7,2."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2033,
+                  "data": {
+                    "text": "La relation de Henderson-Hasselbalch est : $pH = pK_A + \\log \\frac{[base]}{[acide]}$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 212,
+              "title": "Exercice 12",
+              "blocks": [
+                {
+                  "id": 2034,
+                  "data": {
+                    "text": "On dissout $m = 0,72 \\text{ g}$ de benzoate de sodium $\\text{C}_6\\text{H}_5\\text{COONa}$ dans l'eau de manière à obtenir un volume $V = 100 \\text{ mL}$ d'eau. Le $pK_A$ du couple acide benzoïque/ion benzoate vaut 4,2 à $25^\\circ\\text{C}$.<br>Données : masses molaires atomiques : $M_C : 12, M_H : 1,0, M_O : 16, M_{Na} : 23$.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2035,
+                  "data": {
+                    "prompt": "**1.a)** Ecrire l'équation de la dissolution du benzoate de sodium dans l'eau.<br><br>**1.b)** Ecrire l'équation (1) de la réaction de l'ion benzoate avec l'eau.<br><br>**1.c)** Donner l'expression puis la valeur de la constante d'équilibre $K_1$ associée à l'équation de la réaction (1).<br><br>**1.d)** Calculer la concentration de la solution préparée.<br><br>**2.a)** On ajoute un volume $V'$ de solution d'acide chlorhydrique de concentration molaire $c' = 0,10 \\text{ mol/L}$ à la solution précédente. Ecrire l'équation de cette réaction (notée (2)) en la justifiant.<br><br>**2.b)** Exprimer la constante d'équilibre associée à cette équation et calculer sa valeur ; conclure.<br><br>**2.c)** Calculer le volume $V'$ de solution d'acide chlorhydrique à ajouter pour que les concentrations molaires en acide benzoïque et en ion benzoate dans la solution $S$ soient égales.<br><br>**2.d)** Quelle est la valeur du $pH$ de la solution $S$ ?"
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2036,
+                  "data": {
+                    "text": "Lorsque $[acide] = [base]$, le $pH$ de la solution est égal au $pK_A$ du couple."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 213,
+              "title": "Exercice 13",
+              "blocks": [
+                {
+                  "id": 2037,
+                  "data": {
+                    "text": "La régulation du $pH$ est essentielle dans le traitement de l'eau des piscines. Le $pH$ est maintenu automatiquement à son niveau idéal (7,2-7,6).<br>Données : $pK_A(\\text{HClO}/\\text{ClO}^-) = 7,5$.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2038,
+                  "data": {
+                    "prompt": "**I-1)** Lors d'un contrôle de $pH$, la sonde mesure la valeur $pH = 8,5$. À ce $pH$, indiquer l'espèce prédominante du couple : $\\text{HClO}_{(aq)}/\\text{ClO}^-_{(aq)}$.<br><br>**I-2)** Calculer le rapport des concentrations en ions hypochlorite et en acide hypochloreux lors de ce contrôle.<br><br>**II-1)** Exprimer la constante d'équilibre $K$ de la réaction $\\text{ClO}^- + \\text{H}_3\\text{O}^+ \\rightarrow \\text{HClO} + \\text{H}_2\\text{O}$ en fonction de $K_A$. Calculer $K$.<br><br>**II-2.a)** Calculer la concentration molaire effective initiale en ions $\\text{H}_3\\text{O}^+$ notée $[\\text{H}_3\\text{O}^+]_i$ après ajout de $0,10 \\text{ mol}$ d'acide chlorhydrique dans $1,0 \\times 10^5 \\text{ L}$ d'eau.<br><br>**II-2.b)** Calculer le quotient de réaction initial $Q_{r,i}$.<br><br>**II-3)** Donner le sens d'évolution de la réaction d'équation 3.<br><br>**II-4)** Montrer que le $pH$ de l'eau de la piscine diminue."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2039,
+                  "data": {
+                    "text": "Le système évolue dans le sens direct si $Q_{r,i} < K$ et dans le sens inverse si $Q_{r,i} > K$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 214,
+              "title": "Exercice 14",
+              "blocks": [
+                {
+                  "id": 2040,
+                  "data": {
+                    "text": "Au contact du $\\text{CO}_2$ de l'air, une solution d'hydroxyde de sodium se dégrade. Le $\\text{CO}_2$ réagit avec les ions hydroxyde de $\\text{HO}^-$ pour former des ions hydrogénocarbonate $\\text{HCO}_3^-$ qui réagissent à leur tour avec les ions $\\text{HO}^-$ pour former des ions carbonate $\\text{CO}_3^{2-}$.<br>Données : $pK_{A1} = 6,35$ ; $pK_{A2} = 10,3$ ; $pK_e = 14$.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2041,
+                  "data": {
+                    "prompt": "**1.** Quelle particularité possèdent les ions $\\text{HCO}_3^-$ ? Comment appelle-t-on une espèce qui possède cette particularité ?<br><br>**2.** Ecrire l'équation de la réaction acido-basique entre le dioxyde de carbone dissous noté $\\text{CO}_2, \\text{H}_2\\text{O}$ et les ions hydroxyde contenus dans la soude, puis calculer sa constante d'équilibre $K_1$.<br><br>**3.** Ecrire l'équation de la réaction acido-basique entre les ions hydrogénocarbonate et les ions hydroxyde contenus dans la soude, puis calculer sa constante d'équilibre $K_2$.<br><br>**4.** En déduire l'équation de la réaction de formation des ions carbonate $\\text{CO}_3^{2-}$ à partir du dioxyde de carbone dissous $\\text{CO}_2, \\text{H}_2\\text{O}$ et des ions $\\text{HO}^-$ contenus dans la soude, puis calculer sa constante d'équilibre $K$ en faisant apparaître les constante $K_1$ et $K_2$.<br><br>**5.** Le $pH$ de la solution de soude est-il modifié lors de la carbonatation ?<br><br>**6.** Quelle précaution doit-on prendre pour conserver une solution de soude ?"
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2042,
+                  "data": {
+                    "text": "Une espèce amphotère (ou ampholyte) est une espèce qui peut se comporter à la fois comme un acide et comme une base."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            },
+            {
+              "id": 215,
+              "title": "Exercice 15",
+              "blocks": [
+                {
+                  "id": 2043,
+                  "data": {
+                    "text": "L'acide méthanoïque, couramment appelé acide formique, est un liquide piquant et corrosif qui existe à l'état naturel dans l'organisme des fourmis rouges.",
+                    "variant": "enonce"
+                  },
+                  "type": "text"
+                },
+                {
+                  "id": 2044,
+                  "data": {
+                    "prompt": "**I-1)** En quel point a-t-on $pH = pK_A$ ? Justifier. En déduire le $pK_A$ du couple étudié.<br><br>**I-2)** Pour $pH = 5,0$, déterminer graphiquement les proportions des deux formes acide et basique.<br><br>**I-3)** Déterminer graphiquement la valeur du $pH$ tel que $[\\text{HCO}_2\\text{H}]_{eq} = 2[\\text{HCO}_2^-]_{eq}$.<br><br>**I-4)** Trouve-t-on la valeur du $pH$ qu'on obtiendrait en utilisant la relation liant $pH$ et $pK_A$.<br><br>**II-1)** Ecrire l'équation de la réaction entre acide formique $\\text{HCO}_2\\text{H}$ et l'ion hydroxyde $\\text{HO}^-$.<br><br>**II-2)** Définir l'équivalence et calculer le volume de solution de soude nécessaire pour atteindre l'équivalence.<br><br>**II-3)** Comment repérer le point d'équivalence en utilisant la courbe dérivée ?<br><br>**II-4)** Préciser quel est le réactif limitant avant, puis après l'équivalence."
+                  },
+                  "type": "question"
+                },
+                {
+                  "id": 2045,
+                  "data": {
+                    "text": "Sur un diagramme de distribution, l'intersection des courbes correspond au point où $[acide] = [base]$, soit $pH = pK_A$."
+                  },
+                  "type": "course_reminder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Solutions",
+          "kind": "activities",
+          "slides": [
+            {
+              "id": 301,
+              "exercise_id": 201,
+              "title": "Correction - Exercice 1",
+              "blocks": [
+                {
+                  "id": 3001,
+                  "type": "correction",
+                  "data": {
+                    "label": "a)",
+                    "text": "On cherche le terme désignant la réaction de l'eau sur elle-même.<br><br>**Résultat :** d'autoprotolyse"
+                  }
+                },
+                {
+                  "id": 3002,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier le vocabulaire de base des réactions acido-basiques.",
+                    "error": "Confondre autoprotolyse et hydrolyse.",
+                    "tip": "L'autoprotolyse implique deux molécules d'eau identiques réagissant ensemble."
+                  }
+                },
+                {
+                  "id": 3003,
+                  "type": "correction",
+                  "data": {
+                    "label": "b)",
+                    "text": "On s'intéresse à la valeur du produit ionique de l'eau à température constante.<br><br>**Résultat :** constant"
+                  }
+                },
+                {
+                  "id": 3004,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Connaître les propriétés du produit ionique $K_e$.",
+                    "error": "Penser que $K_e$ varie avec la concentration.",
+                    "tip": "$K_e$ ne dépend que de la température."
+                  }
+                },
+                {
+                  "id": 3005,
+                  "type": "correction",
+                  "data": {
+                    "label": "c)",
+                    "text": "On compare le pH d'une solution acide à 7 à 25 °C.<br><br>**Résultat :** inférieur"
+                  }
+                },
+                {
+                  "id": 3006,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser l'échelle de pH à 25 °C.",
+                    "error": "Oublier que cette limite de 7 n'est valable qu'à 25 °C.",
+                    "tip": "Une solution acide possède toujours une concentration en ions hydronium supérieure à celle des ions hydroxyde."
+                  }
+                },
+                {
+                  "id": 3007,
+                  "type": "correction",
+                  "data": {
+                    "label": "d)",
+                    "text": "On compare le pH d'une solution basique à 7 à 25 °C.<br><br>**Résultat :** supérieur"
+                  }
+                },
+                {
+                  "id": 3008,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser l'échelle de pH pour caractériser la basicité.",
+                    "error": "Confondre acide et basique sur l'échelle de pH.",
+                    "tip": "Plus le pH est élevé, plus la solution est basique."
+                  }
+                },
+                {
+                  "id": 3009,
+                  "type": "correction",
+                  "data": {
+                    "label": "e)",
+                    "text": "On étudie la relation entre la constante d'acidité $K_A$ et le $pK_A$.<br><br>Par définition :<br><br>$$\npK_A = -\\log K_A\n$$<br><br>Plus $K_A$ est grand, plus $-\\log K_A$ est petit.<br><br>**Résultat :** grande - petit"
+                  }
+                },
+                {
+                  "id": 3010,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la fonction logarithme décroissante.",
+                    "error": "Penser que $K_A$ et $pK_A$ varient dans le même sens.",
+                    "tip": "Le préfixe 'p' signifie toujours l'opposé du logarithme décimal."
+                  }
+                },
+                {
+                  "id": 3011,
+                  "type": "correction",
+                  "data": {
+                    "label": "f)",
+                    "text": "On détermine l'espèce prédominante lorsque $pH > pK_A$.<br><br>D'après la relation d'Henderson-Hasselbalch :<br><br>$$\npH = pK_A + \\log \\frac{[\\text{A}^-]_{eq}}{[\\text{HA}]_{eq}}\n$$<br><br>Si $pH > pK_A$, alors le rapport est supérieur à 1.<br><br>**Résultat :** la base $\\text{A}^-$"
+                  }
+                },
+                {
+                  "id": 3012,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Analyser le rapport des concentrations d'un couple acide-base.",
+                    "error": "Inverser l'acide et la base dans la formule du pH.",
+                    "tip": "À pH élevé (milieu basique), c'est la forme basique qui prédomine."
+                  }
+                },
+                {
+                  "id": 3013,
+                  "type": "correction",
+                  "data": {
+                    "label": "g)",
+                    "text": "On cherche le nom de la constante d'équilibre $K_e$.<br><br>**Résultat :** produit ionique"
+                  }
+                },
+                {
+                  "id": 3014,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Connaître la nomenclature des constantes d'équilibre de l'eau.",
+                    "error": "Confondre produit ionique et constante d'acidité.",
+                    "tip": "$K_e$ est le produit des concentrations des ions de l'eau."
+                  }
+                },
+                {
+                  "id": 3015,
+                  "type": "correction",
+                  "data": {
+                    "label": "h)",
+                    "text": "On identifie la réaction propre à l'eau pure.<br><br>**Résultat :** d'autoprotolyse"
+                  }
+                },
+                {
+                  "id": 3016,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Associer la réaction chimique à son nom standard.",
+                    "error": "Utiliser un terme imprécis comme 'dissociation'.",
+                    "tip": "L'autoprotolyse de l'eau produit toujours $\\text{H}_3\\text{O}^+$ et $\\text{HO}^-$."
+                  }
+                },
+                {
+                  "id": 3017,
+                  "type": "correction",
+                  "data": {
+                    "label": "i)",
+                    "text": "On qualifie une solution dont le pH est supérieur à 7 à 25 °C.<br><br>**Résultat :** basique"
+                  }
+                },
+                {
+                  "id": 3018,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Classer le caractère d'une solution selon son pH.",
+                    "error": "Confondre acide et basique.",
+                    "tip": "Une solution neutre a un pH de 7 à 25 °C."
+                  }
+                },
+                {
+                  "id": 3019,
+                  "type": "correction",
+                  "data": {
+                    "label": "j)",
+                    "text": "On définit la constante $K_A$ et l'espèce associée.<br><br>**Résultat :** constante d'acidité - l'acide"
+                  }
+                },
+                {
+                  "id": 3020,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Associer la constante d'équilibre à sa définition thermodynamique.",
+                    "error": "Attribuer $K_A$ à la base seule.",
+                    "tip": "$K_A$ caractérise toujours la force d'un acide en solution aqueuse."
+                  }
+                },
+                {
+                  "id": 3021,
+                  "type": "correction",
+                  "data": {
+                    "label": "k)",
+                    "text": "On nomme le diagramme représentant les domaines de prédominance.<br><br>**Résultat :** prédominance"
+                  }
+                },
+                {
+                  "id": 3022,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Connaître les outils graphiques d'analyse acido-basique.",
+                    "error": "Confondre diagramme de distribution et diagramme de prédominance.",
+                    "tip": "Le diagramme de prédominance montre des zones séparées par la valeur du $pK_A$."
+                  }
+                },
+                {
+                  "id": 3023,
+                  "type": "correction",
+                  "data": {
+                    "label": "l)",
+                    "text": "On qualifie la zone de virage d'un indicateur coloré.<br><br>**Résultat :** sensible"
+                  }
+                },
+                {
+                  "id": 3024,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Comprendre le fonctionnement d'un indicateur coloré.",
+                    "error": "Penser que le virage se fait à une valeur de pH unique et exacte.",
+                    "tip": "La zone de virage s'étend généralement sur environ 2 unités de pH autour du $pK_A$ de l'indicateur."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 302,
+              "exercise_id": 202,
+              "title": "Correction - Exercice 2",
+              "blocks": [
+                {
+                  "id": 3025,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.a)",
+                    "text": "On évalue l'affirmation concernant la définition du pH.<br><br>Par définition, pour une solution diluée :<br><br>$$\npH = -\\log [\\text{H}_3\\text{O}^+]\n$$<br><br>**Résultat :** Vrai"
+                  }
+                },
+                {
+                  "id": 3026,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Vérifier la formule de définition du pH.",
+                    "error": "Oublier le signe moins devant le logarithme.",
+                    "tip": "Le pH est une grandeur sans unité."
+                  }
+                },
+                {
+                  "id": 3027,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.b)",
+                    "text": "On évalue l'affirmation sur la relation inverse du pH.<br><br>La relation correcte est :<br><br>$$\n[\\text{H}_3\\text{O}^+] = 10^{-pH}\n$$<br><br>L'affirmation proposant une autre relation est donc fausse.<br><br>**Résultat :** Faux"
+                  }
+                },
+                {
+                  "id": 3028,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser la fonction réciproque du logarithme décimal ($10^x$).",
+                    "error": "Confondre $10^{-pH}$ et $10^{pH}$.",
+                    "tip": "Puisque le pH est positif, la concentration en ions hydronium est très petite, d'où l'exposant négatif."
+                  }
+                },
+                {
+                  "id": 3029,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.c)",
+                    "text": "On évalue l'affirmation sur le produit ionique de l'eau.<br><br>Par définition, dans toute solution aqueuse :<br><br>$$\nK_e = [\\text{H}_3\\text{O}^+]_{eq} \\times [\\text{HO}^-]_{eq}\n$$<br><br>**Résultat :** Vrai"
+                  }
+                },
+                {
+                  "id": 3030,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la loi d'action de masse à l'autoprotolyse de l'eau.",
+                    "error": "Inclure la concentration de l'eau liquide dans l'expression de $K_e$.",
+                    "tip": "L'eau étant le solvant, son activité chimique est égale à 1."
+                  }
+                },
+                {
+                  "id": 3031,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.a)",
+                    "text": "On évalue la définition de la constante d'acidité $K_A$.<br><br>Pour le couple $\\text{HA}/\\text{A}^-$, la réaction avec l'eau est :<br><br>$$\n\\text{HA}_{(aq)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{A}^-_{(aq)} + \\text{H}_3\\text{O}^+_{(aq)}\n$$<br><br>La constante d'équilibre associée est bien la constante d'acidité $K_A$.<br><br>**Résultat :** Vrai"
+                  }
+                },
+                {
+                  "id": 3032,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation de réaction d'un acide avec l'eau pour identifier $K_A$.",
+                    "error": "Confondre la réaction avec l'eau et la réaction avec les ions hydroxyde.",
+                    "tip": "$K_A$ est toujours définie par rapport à la réaction de l'acide avec l'eau."
+                  }
+                },
+                {
+                  "id": 3033,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.b)",
+                    "text": "On évalue la relation entre le $pK_A$ et la force d'un acide.<br><br>Plus un acide est fort, plus il se dissocie, donc plus $K_A$ est grand, ce qui implique un $pK_A$ plus petit.<br><br>**Résultat :** Faux"
+                  }
+                },
+                {
+                  "id": 3034,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Relier la force d'un acide à ses constantes thermodynamiques.",
+                    "error": "Associer un grand $pK_A$ à un acide fort.",
+                    "tip": "Retenez : Acide fort = Petit $pK_A$."
+                  }
+                },
+                {
+                  "id": 3035,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.c)",
+                    "text": "On évalue la condition de prédominance de la forme acide.<br><br>D'après la relation :<br><br>$$\npH = pK_A + \\log \\frac{[\\text{A}^-]_{eq}}{[\\text{HA}]_{eq}}\n$$<br><br>Si $pH < pK_A$, alors $\\log \\frac{[\\text{A}^-]_{eq}}{[\\text{HA}]_{eq}} < 0$, soit $[\\text{HA}]_{eq} > [\\text{A}^-]_{eq}$. L'acide prédomine.<br><br>**Résultat :** Vrai"
+                  }
+                },
+                {
+                  "id": 3036,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser le diagramme de prédominance.",
+                    "error": "Inverser les domaines de l'acide et de la base.",
+                    "tip": "L'acide prédomine toujours dans la zone la plus acide (pH le plus faible, donc $pH < pK_A$)."
+                  }
+                },
+                {
+                  "id": 3037,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.d)",
+                    "text": "On évalue la définition d'un indicateur coloré.<br><br>Un indicateur coloré acido-basique est constitué par un couple acide/base faible dont les deux formes conjuguées ont des couleurs différentes.<br><br>**Résultat :** Vrai"
+                  }
+                },
+                {
+                  "id": 3038,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Comprendre la nature chimique des indicateurs colorés.",
+                    "error": "Penser qu'un indicateur coloré est un acide fort.",
+                    "tip": "La forme acide et la forme basique de l'indicateur absorbent la lumière à des longueurs d'onde différentes."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 303,
+              "exercise_id": 203,
+              "title": "Correction - Exercice 3",
+              "blocks": [
+                {
+                  "id": 3039,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.a)",
+                    "text": "On cherche la valeur de référence minimale ou neutre.<br><br>**Résultat :** 0"
+                  }
+                },
+                {
+                  "id": 3040,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier les valeurs limites de l'échelle de pH usuelle.",
+                    "error": "Penser que le pH ne peut jamais être négatif ou nul.",
+                    "tip": "Pour des solutions très concentrées, le pH peut être nul ou légèrement négatif."
+                  }
+                },
+                {
+                  "id": 3041,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.b)",
+                    "text": "On exprime la concentration en ions hydroxyde en fonction de $K_e$ et $[\\text{H}_3\\text{O}^+]$.<br><br>D'après la définition du produit ionique :<br><br>$$\nK_e = [\\text{H}_3\\text{O}^+]_{eq} \\cdot [\\text{HO}^-]_{eq}\n$$\n<br>On isole $[\\text{HO}^-]_{eq}$ :<br><br>$$\n[\\text{HO}^-]_{eq} = \\frac{K_e}{[\\text{H}_3\\text{O}^+]_{eq}}\n$$<br><br>**Résultat :** $[\\text{HO}^-]_{eq} = \\frac{K_e}{[\\text{H}_3\\text{O}^+]_{eq}}$"
+                  }
+                },
+                {
+                  "id": 3042,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Manipuler l'expression du produit ionique de l'eau.",
+                    "error": "Inverser le numérateur et le dénominateur.",
+                    "tip": "Toujours vérifier la cohérence des unités et des dimensions."
+                  }
+                },
+                {
+                  "id": 3043,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.c)",
+                    "text": "On cherche l'expression de la constante d'équilibre d'une réaction entre l'acide 1 et la base 2.<br><br>La constante d'équilibre s'écrit :<br><br>$$\nK = \\frac{K_{A1}}{K_{A2}}\n$$<br><br>**Résultat :** $\\frac{K_{A1}}{K_{A2}}$"
+                  }
+                },
+                {
+                  "id": 3044,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer la constante d'équilibre en fonction des constantes d'acidité des couples en présence.",
+                    "error": "Inverser les indices des constantes d'acidité.",
+                    "tip": "Le numérateur contient toujours le $K_A$ de l'acide réactif."
+                  }
+                },
+                {
+                  "id": 3045,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On cherche la valeur du produit ionique de l'eau à 25 °C.<br><br>D'après les données physiques standards :<br><br>$$\nK_e = 1{,}0 \\times 10^{-14}\n$$<br><br>**Résultat :** b- $1{,}0 \\times 10^{-14}$"
+                  }
+                },
+                {
+                  "id": 3046,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Connaître la valeur numérique de $K_e$ à 25 °C.",
+                    "error": "Confondre $10^{-14}$ et $10^{-7}$ (qui est la concentration des ions dans l'eau pure).",
+                    "tip": "À 25 °C, $pK_e = 14$."
+                  }
+                },
+                {
+                  "id": 3047,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On cherche la relation correcte définissant le pH.<br><br>Par définition :<br><br>$$\npH = -\\log [\\text{H}_3\\text{O}^+]\n$$<br><br>**Résultat :** d- $pH = -\\log [\\text{H}_3\\text{O}^+]$"
+                  }
+                },
+                {
+                  "id": 3048,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier la définition mathématique du pH.",
+                    "error": "Choisir une formule avec un logarithme népérien (ln) au lieu du logarithme décimal (log).",
+                    "tip": "Le pH utilise exclusivement le logarithme en base 10."
+                  }
+                },
+                {
+                  "id": 3049,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On cherche l'expression de la constante d'acidité $K_A$ pour le couple $\\text{HA}/\\text{A}^-$.<br><br>La réaction de l'acide avec l'eau s'écrit :<br><br>$$\n\\text{HA} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{A}^- + \\text{H}_3\\text{O}^+\n$$\n<br>La constante d'acidité est :<br><br>$$\nK_A = \\frac{[\\text{A}^-]_{eq} \\cdot [\\text{H}_3\\text{O}^+]_{eq}}{[\\text{HA}]_{eq}}\n$$<br><br>**Résultat :** c- $K_A = \\frac{[\\text{A}^-][\\text{H}_3\\text{O}^+]}{[\\text{HA}]}$"
+                  }
+                },
+                {
+                  "id": 3050,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la loi d'action de masse à l'équilibre d'acidité.",
+                    "error": "Mettre l'acide au numérateur et la base au dénominateur.",
+                    "tip": "Pensez : 'Produits sur Réactifs'."
+                  }
+                },
+                {
+                  "id": 3051,
+                  "type": "correction",
+                  "data": {
+                    "label": "5)",
+                    "text": "On cherche la condition pour laquelle la forme basique prédomine.<br><br>D'après la relation d'Henderson-Hasselbalch :<br><br>$$\npH = pK_A + \\log \\frac{[\\text{A}^-]}{[\\text{HA}]}\n$$\n<br>La base prédomine si $[\\text{A}^-] > [\\text{HA}]$, ce qui équivaut à :<br><br>$$\npH > pK_A\n$$<br><br>**Résultat :** b- $pH > pK_A$"
+                  }
+                },
+                {
+                  "id": 3052,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser la relation entre pH, $pK_A$ et prédominance.",
+                    "error": "Associer la prédominance de la base à un pH inférieur au $pK_A$.",
+                    "tip": "Un milieu basique (pH élevé) favorise la forme basique."
+                  }
+                },
+                {
+                  "id": 3053,
+                  "type": "correction",
+                  "data": {
+                    "label": "6.a)",
+                    "text": "On qualifie la réaction support d'un dosage.<br><br>Une réaction de dosage doit être rapide, univoque et totale.<br><br>**Résultat :** totale"
+                  }
+                },
+                {
+                  "id": 3054,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Connaître les critères d'une réaction de dosage.",
+                    "error": "Confondre réaction totale et réaction limitée.",
+                    "tip": "L'équivalence d'un dosage repose sur la consommation totale du réactif limitant."
+                  }
+                },
+                {
+                  "id": 3055,
+                  "type": "correction",
+                  "data": {
+                    "label": "6.b)",
+                    "text": "On cherche la condition sur le volume de solution titrante versé $V$ avant l'équivalence $V_E$.<br><br>Avant l'équivalence, le volume versé est inférieur au volume équivalent.<br><br>**Résultat :** $V < V_E$"
+                  }
+                },
+                {
+                  "id": 3056,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Définir les phases d'un titrage par rapport à l'équivalence.",
+                    "error": "Inverser le sens de l'inégalité.",
+                    "tip": "À l'équivalence, $V = V_E$."
+                  }
+                },
+                {
+                  "id": 3057,
+                  "type": "correction",
+                  "data": {
+                    "label": "6.c)",
+                    "text": "On cherche l'appareil de mesure utilisé pour suivre un dosage pH-métrique.<br><br>**Résultat :** pH-mètre"
+                  }
+                },
+                {
+                  "id": 3058,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier le matériel expérimental de dosage.",
+                    "error": "Confondre pH-mètre et conductimètre.",
+                    "tip": "Le pH-mètre mesure la différence de potentiel liée à l'activité des ions hydronium."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 304,
+              "exercise_id": 204,
+              "title": "Correction - Exercice 4",
+              "blocks": [
+                {
+                  "id": 3059,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On identifie les valeurs de $pK_A$ pour les couples donnés.<br><br>Pour le couple de l'acide méthanoïque $\\text{HCO}_2\\text{H}/\\text{HCO}_2^-$ :<br><br>$$\npK_{A1} = 3{,}8\n$$<br><br>Pour le couple de l'ion méthylammonium $\\text{CH}_3\\text{NH}_3^+/\\text{CH}_3\\text{NH}_2$ :<br><br>$$\npK_{A2} = 10{,}7\n$$<br><br>**Résultat :** $pK_{A1} = 3{,}8$ et $pK_{A2} = 10{,}7$"
+                  }
+                },
+                {
+                  "id": 3060,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Extraire les constantes d'acidité des tables de données.",
+                    "error": "Inverser les valeurs de $pK_A$ entre les deux couples.",
+                    "tip": "L'acide méthanoïque est un acide plus fort que l'ion méthylammonium, son $pK_A$ est donc plus bas."
+                  }
+                },
+      
+                {
+                  "id": 3063,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.b)",
+                    "text": "On écrit l'équation de la réaction et on calcule sa constante d'équilibre.<br><br>L'équation de la réaction s'écrit :<br><br>$$\n\\text{HCO}_2\\text{H}_{(aq)} + \\text{CH}_3\\text{NH}_{2(aq)} \\rightleftharpoons \\text{HCO}_2^-_{(aq)} + \\text{CH}_3\\text{NH}_{3(aq)}^+\n$$\n<br>La constante d'équilibre $K$ est définie par :<br><br>$$\nK = \\frac{[\\text{HCO}_2^-]_{eq} \\cdot [\\text{CH}_3\\text{NH}_3^+]_{eq}}{[\\text{HCO}_2\\text{H}]_{eq} \\cdot [\\text{CH}_3\\text{NH}_2]_{eq}}\n$$\n<br>En multipliant le numérateur et le dénominateur par $[\\text{H}_3\\text{O}^+]_{eq}$, on obtient :<br><br>$$\nK = \\frac{K_{A1}}{K_{A2}} = 10^{pK_{A2} - pK_{A1}}\n$$\n<br>Substitution numérique :<br><br>$$\nK = 10^{10{,}7 - 3{,}8} = 10^{6{,}9} \\approx 7{,}94 \\times 10^6\n$$<br><br>Puisque $K > 10^4$, la réaction est considérée comme totale.<br><br>**Résultat :** $K = 7{,}94 \\times 10^6$ (réaction totale)"
+                  }
+                },
+                {
+                  "id": 3064,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer la constante d'équilibre d'une réaction acido-basique en fonction des $pK_A$.",
+                    "error": "Faire une erreur de signe dans l'exposant de la puissance de 10.",
+                    "tip": "Une constante d'équilibre très supérieure à $10^4$ indique une réaction quantitative (totale)."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 305,
+              "exercise_id": 205,
+              "title": "Correction - Exercice 5",
+              "blocks": [
+                {
+                  "id": 3065,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On écrit l'équation de la réaction entre l'acide éthanoïque et les ions hydroxyde.<br><br>L'équation chimique s'écrit :<br><br>$$\n\\text{CH}_3\\text{COOH}_{(aq)} + \\text{HO}^-_{(aq)} \\rightleftharpoons \\text{CH}_3\\text{COO}^-_{(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{CH}_3\\text{COOH} + \\text{HO}^- \\rightleftharpoons \\text{CH}_3\\text{COO}^- + \\text{H}_2\\text{O}$"
+                  }
+                },
+                {
+                  "id": 3066,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier les réactifs et les produits pour écrire l'équation-bilan.",
+                    "error": "Écrire des ions spectateurs comme $\\text{Na}^+$ dans l'équation simplifiée.",
+                    "tip": "L'eau est le solvant, elle est toujours écrite à droite comme produit lors de la neutralisation d'un acide par $\\text{HO}^-$."
+                  }
+                },
+                {
+                  "id": 3067,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On exprime la constante d'équilibre $K$ de cette réaction.<br><br>Par définition de la constante d'équilibre :<br><br>$$\nK = \\frac{[\\text{CH}_3\\text{COO}^-]_{eq}}{[\\text{CH}_3\\text{COOH}]_{eq} \\cdot [\\text{HO}^-]_{eq}}\n$$<br><br>**Résultat :** $K = \\frac{[\\text{CH}_3\\text{COO}^-]}{[\\text{CH}_3\\text{COOH}] \\cdot [\\text{HO}^-]}$"
+                  }
+                },
+                {
+                  "id": 3068,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la loi d'action de masse.",
+                    "error": "Inclure la concentration de l'eau $[\\text{H}_2\\text{O}]$ dans l'expression de $K$.",
+                    "tip": "L'activité de l'eau solvant est égale à 1, elle n'apparaît pas dans l'expression de $K$."
+                  }
+                },
+                {
+                  "id": 3069,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On établit la relation entre $K$, $K_A$ et $K_e$.<br><br>En multipliant le numérateur et le dénominateur de l'expression de $K$ par $[\\text{H}_3\\text{O}^+]_{eq}$ :<br><br>$$\nK = \\frac{[\\text{CH}_3\\text{COO}^-]_{eq} \\cdot [\\text{H}_3\\text{O}^+]_{eq}}{[\\text{CH}_3\\text{COOH}]_{eq} \\cdot [\\text{HO}^-]_{eq} \\cdot [\\text{H}_3\\text{O}^+]_{eq}}\n$$\n<br>On reconnaît au numérateur $K_A$ et au dénominateur $K_e$ :<br><br>$$\nK = \\frac{K_A}{K_e}\n$$<br><br>**Résultat :** $K = \\frac{K_A}{K_e}$"
+                  }
+                },
+                {
+                  "id": 3070,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Faire apparaître les constantes connues en multipliant par $[\\text{H}_3\\text{O}^+]/[\\text{H}_3\\text{O}^+]$.",
+                    "error": "Confondre $K_e$ et son inverse.",
+                    "tip": "Le produit $[\\text{HO}^-] \\cdot [\\text{H}_3\\text{O}^+]$ est toujours égal à $K_e$."
+                  }
+                },
+                {
+                  "id": 3071,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On calcule la valeur numérique de la constante d'équilibre $K$.<br><br>On utilise la relation établie précédemment :<br><br>$$\nK = \\frac{K_A}{K_e}\n$$\n<br>Substitution numérique avec $K_A = 1{,}8 \\times 10^{-5}$ et $K_e = 10^{-14}$ :<br><br>$$\nK = \\frac{1{,}8 \\times 10^{-5}}{10^{-14}} = 1{,}8 \\times 10^9\n$$<br><br>**Résultat :** $K = 1{,}8 \\times 10^9$ /nOn conclut sur le caractère total de la réaction.<br><br>La constante d'équilibre calculée est :<br><br>$$\nK = 1{,}8 \\times 10^9\n$$\n<br>Puisque $K > 10^4$, la réaction est totale.<br><br>**Résultat :** La réaction est totale."
+                  }
+                },
+                {
+                  "id": 3072,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Effectuer le calcul numérique avec les puissances de 10.",
+                    "error": "Faire une erreur de signe lors de la division des puissances de 10.",
+                    "tip": "Une division par $10^{-14}$ revient à multiplier par $10^{14}$."
+                  }
+                }
+                
+              ]
+            },
+            {
+              "id": 306,
+              "exercise_id": 206,
+              "title": "Correction - Exercice 6",
+              "blocks": [
+                {
+                  "id": 3075,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On identifie les acides conjugués des bases données.<br><br>Pour l'ammoniac $\\text{NH}_3$, l'acide conjugué est l'ion ammonium :<br><br>$$\n\\text{NH}_4^+\n$$\n<br>Pour la méthylamine $\\text{CH}_3\\text{NH}_2$, l'acide conjugué est l'ion méthylammonium :<br><br>$$\n\\text{CH}_3\\text{NH}_3^+\n$$<br><br>**Résultat :** $\\text{NH}_4^+$ et $\\text{CH}_3\\text{NH}_3^+$"
+                  }
+                },
+                {
+                  "id": 3076,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Ajouter un proton $\\text{H}^+$ à la formule de la base pour obtenir son acide conjugué.",
+                    "error": "Oublier d'ajuster la charge électrique globale de l'ion.",
+                    "tip": "L'acide conjugué possède toujours un atome d'hydrogène de plus et une charge positive de plus que sa base conjuguée."
+                  }
+                },
+                {
+                  "id": 3077,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On écrit l'équation de la réaction entre l'ion méthylammonium et les ions hydroxyde.<br><br>L'équation chimique s'écrit :<br><br>$$\n\\text{CH}_3\\text{NH}_{3(aq)}^+ + \\text{HO}^-_{(aq)} \\rightleftharpoons \\text{CH}_3\\text{NH}_{2(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{CH}_3\\text{NH}_3^+ + \\text{HO}^- \\rightleftharpoons \\text{CH}_3\\text{NH}_2 + \\text{H}_2\\text{O}$"
+                  }
+                },
+                {
+                  "id": 3078,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Équilibrer les charges et les éléments chimiques.",
+                    "error": "Écrire une flèche simple alors que la réaction peut être limitée.",
+                    "tip": "Utiliser la double flèche $\\rightleftharpoons$ par défaut tant que le caractère total n'est pas prouvé."
+                  }
+                },
+                {
+                  "id": 3079,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On exprime la constante d'équilibre $K$ de cette réaction.<br><br>Par définition :<br><br>$$\nK = \\frac{[\\text{CH}_3\\text{NH}_2]_{eq}}{[\\text{CH}_3\\text{NH}_3^+]_{eq} \\cdot [\\text{HO}^-]_{eq}}\n$$\n<br>En multipliant par $[\\text{H}_3\\text{O}^+]_{eq}$ au numérateur et au dénominateur :<br><br>$$\nK = \\frac{K_A}{K_e}\n$$<br><br>**Résultat :** $K = \\frac{K_A}{K_e}$"
+                  }
+                },
+                {
+                  "id": 3080,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Démontrer la relation entre $K$, $K_A$ et $K_e$.",
+                    "error": "Inverser le rapport et écrire $K = \\frac{K_e}{K_A}$.",
+                    "tip": "Vérifier toujours que l'expression finale est sans dimension."
+                  }
+                },
+                {
+                  "id": 3081,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On calcule la constante d'équilibre et on conclut sur le caractère total.<br><br>On utilise la relation :<br><br>$$\nK = \\frac{K_A}{K_e}\n$$\n<br>Substitution numérique avec $K_A = 2 \\times 10^{-11}$ et $K_e = 10^{-14}$ :<br><br>$$\nK = \\frac{2 \\times 10^{-11}}{10^{-14}} = 2 \\times 10^3\n$$\n<br>Puisque $K = 2 \\times 10^3 < 10^4$, la réaction n'est pas totale.<br><br>**Résultat :** $K = 2 \\times 10^3$ (réaction limitée)"
+                  }
+                },
+                {
+                  "id": 3082,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Comparer la valeur numérique obtenue au seuil de $10^4$.",
+                    "error": "Conclure que la réaction est totale car $K$ est grand devant 1.",
+                    "tip": "En chimie des solutions, le seuil de référence pour considérer une réaction comme totale est strictement $10^4$."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 307,
+              "exercise_id": 207,
+              "title": "Correction - Exercice 7",
+              "blocks": [
+                {
+                  "id": 3083,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.a)",
+                    "text": "On écrit l'équation de la réaction de l'acide éthanoïque avec l'eau.<br><br>L'équation s'écrit :<br><br>$$\n\\text{CH}_3\\text{COOH}_{(aq)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{CH}_3\\text{COO}^-_{(aq)} + \\text{H}_3\\text{O}^+_{(aq)}\n$$<br><br>**Résultat :** $\\text{CH}_3\\text{COOH} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{CH}_3\\text{COO}^- + \\text{H}_3\\text{O}^+$"
+                  }
+                },
+                {
+                  "id": 3084,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire la réaction classique de dissociation d'un acide faible dans l'eau.",
+                    "error": "Oublier les états physiques des espèces chimiques.",
+                    "tip": "L'eau joue ici le rôle de base et de solvant."
+                  }
+                },
+                {
+                  "id": 3085,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.b)",
+                    "text": "On calcule la constante d'acidité $K_{A1}$ et on conclut.<br><br>D'après la valeur du $pK_{A1}$ :<br><br>$$\nK_{A1} = 10^{-pK_{A1}}\n$$\n<br>Substitution numérique :<br><br>$$\nK_{A1} = 10^{-4{,}7} \\approx 2 \\times 10^{-5}\n$$\n<br>Puisque $K_{A1} < 10^{-4}$, la réaction de l'acide avec l'eau est très limitée.<br><br>**Résultat :** $K_{A1} \\approx 2 \\times 10^{-5}$ (réaction limitée)"
+                  }
+                },
+                {
+                  "id": 3086,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Calculer $K_A$ à partir du $pK_A$.",
+                    "error": "Confondre la constante d'acidité avec le taux d'avancement final.",
+                    "tip": "Un acide est dit faible dans l'eau si son $pK_A$ est supérieur à 0."
+                  }
+                },
+                {
+                  "id": 3087,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.c)",
+                    "text": "On calcule le taux d'avancement final $\\tau_1$.<br><br>Par définition :<br><br>$$\n\\tau_1 = \\frac{[\\text{H}_3\\text{O}^+]_{eq}}{C_1} = \\frac{10^{-pH}}{C_1}\n$$\n<br>Substitution numérique avec $pH = 3{,}2$ et $C_1 = 2 \\times 10^{-2} \\text{ mol/L}$ :<br><br>$$\n\\tau_1 = \\frac{10^{-3{,}2}}{2 \\times 10^{-2}} \\approx 0{,}032 = 3{,}2\\%\n$$\n<br>Puisque $\\tau_1 < 1$ (ou $3{,}2\\% < 100\\%$), la réaction est bien limitée.<br><br>**Résultat :** $\\tau_1 = 3{,}2\\%$"
+                  }
+                },
+                {
+                  "id": 3088,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer le taux d'avancement final en fonction du pH et de la concentration initiale.",
+                    "error": "Oublier de convertir le taux d'avancement en pourcentage si demandé.",
+                    "tip": "Un taux d'avancement très inférieur à 100% confirme le caractère faible de l'acide."
+                  }
+                },
+                {
+                  "id": 3089,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.a)",
+                    "text": "On écrit l'équation de la réaction de l'ammoniac avec l'eau.<br><br>L'équation s'écrit :<br><br>$$\n\\text{NH}_{3(aq)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{NH}_{4(aq)}^+ + \\text{HO}^-_{(aq)}\n$$<br><br>**Résultat :** $\\text{NH}_3 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{NH}_4^+ + \\text{HO}^-$"
+                  }
+                },
+                {
+                  "id": 3090,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire la réaction d'une base faible avec l'eau.",
+                    "error": "Produire des ions $\\text{H}_3\\text{O}^+$ au lieu de $\\text{HO}^-$.",
+                    "tip": "La réaction d'une base avec l'eau génère toujours des ions hydroxyde $\\text{HO}^-$."
+                  }
+                },
+                {
+                  "id": 3091,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.b)",
+                    "text": "On calcule la constante d'équilibre $K$ de cette réaction.<br><br>La constante d'équilibre s'exprime par :<br><br>$$\nK = \\frac{K_e}{K_{A2}} = 10^{pK_{A2} - pK_e}\n$$\n<br>Substitution numérique avec $pK_{A2} = 9{,}2$ et $pK_e = 14$ :<br><br>$$\nK = 10^{9{,}2 - 14} = 10^{-4{,}8} \\approx 1{,}58 \\times 10^{-5}\n$$\n<br>Puisque $K < 10^{-4}$, l'ammoniac est une base faible.<br><br>**Résultat :** $K \\approx 1{,}58 \\times 10^{-5}$"
+                  }
+                },
+                {
+                  "id": 3092,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Relier la constante d'équilibre de la réaction d'une base avec l'eau à $K_A$ et $K_e$.",
+                    "error": "Utiliser directement $K_A$ au lieu de $\\frac{K_e}{K_A}$.",
+                    "tip": "La constante d'équilibre de la réaction d'une base avec l'eau est notée $K_b$ et vaut $\\frac{K_e}{K_A}$."
+                  }
+                },
+                {
+                  "id": 3093,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.c)",
+                    "text": "On calcule le taux d'avancement final $\\tau_2$.<br><br>Pour une base, on a :<br><br>$$\n\\tau_2 = \\frac{[\\text{HO}^-]_{eq}}{C_2} = \\frac{10^{pH-pK_e}}{C_2}\n$$\n<br>Substitution numérique :<br><br>$$\n\\tau_2 = 0{,}04 = 4\\%\n$$\n<br>Puisque $\\tau_2 < 1$, la réaction n'est pas totale.<br><br>**Résultat :** $\\tau_2 = 4\\%$"
+                  }
+                },
+                {
+                  "id": 3094,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer $[\\text{HO}^-]$ en fonction du pH pour calculer le taux d'avancement d'une base.",
+                    "error": "Utiliser directement $10^{-pH}$ au numérateur pour une base.",
+                    "tip": "Rappelez-vous que $[\\text{HO}^-] = 10^{pH - 14}$ à 25 °C."
+                  }
+                },
+                {
+                  "id": 3095,
+                  "type": "correction",
+                  "data": {
+                    "label": "3.a)",
+                    "text": "On écrit l'équation de la réaction entre l'acide éthanoïque et l'ammoniac.<br><br>L'équation s'écrit :<br><br>$$\n\\text{CH}_3\\text{COOH}_{(aq)} + \\text{NH}_{3(aq)} \\rightleftharpoons \\text{CH}_3\\text{COO}^-_{(aq)} + \\text{NH}_{4(aq)}^+\n$$<br><br>**Résultat :** $\\text{CH}_3\\text{COOH} + \\text{NH}_3 \\rightleftharpoons \\text{CH}_3\\text{COO}^- + \\text{NH}_4^+$"
+                  }
+                },
+                {
+                  "id": 3096,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation de transfert de proton entre l'acide et la base.",
+                    "error": "Faire intervenir l'eau comme réactif principal.",
+                    "tip": "Il s'agit d'une réaction directe entre un acide faible et une base faible."
+                  }
+                },
+                {
+                  "id": 3097,
+                  "type": "correction",
+                  "data": {
+                    "label": "3.b)",
+                    "text": "On calcule la constante d'équilibre $K$ de cette réaction et on conclut.<br><br>La constante d'équilibre s'exprime par :<br><br>$$\nK = \\frac{K_{A1}}{K_{A2}} = 10^{pK_{A2} - pK_{A1}}\n$$\n<br>Substitution numérique :<br><br>$$\nK = 10^{9{,}2 - 4{,}7} = 10^{4{,}5} \\approx 3{,}16 \\times 10^4\n$$\n<br>Puisque $K > 10^4$, la réaction peut être considérée comme totale.<br><br>**Résultat :** $K \\approx 3{,}16 \\times 10^4$ (réaction totale)"
+                  }
+                },
+                {
+                  "id": 3098,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Calculer la constante d'équilibre à partir de la différence des $pK_A$.",
+                    "error": "Inverser la soustraction dans l'exposant.",
+                    "tip": "La constante d'équilibre est supérieure à $10^4$ car la différence de $pK_A$ est supérieure à 4 unités."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 308,
+              "exercise_id": 208,
+              "title": "Correction - Exercice 8",
+              "blocks": [
+                {
+                  "id": 3099,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On écrit l'équation de la réaction de dosage de l'acide $\\text{HA}$ par la soude.<br><br>L'équation s'écrit :<br><br>$$\n\\text{HA}_{(aq)} + \\text{HO}^-_{(aq)} \\rightarrow \\text{A}^-_{(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{HA}_{(aq)} + \\text{HO}^-_{(aq)} \\rightarrow \\text{A}^-_{(aq)} + \\text{H}_2\\text{O}_{(l)}$"
+                  }
+                },
+                {
+                  "id": 3100,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation d'un dosage avec une flèche simple pour indiquer le caractère total.",
+                    "error": "Utiliser une double flèche pour une réaction de dosage.",
+                    "tip": "Une réaction de dosage est toujours modélisée par une flèche simple car elle est totale."
+                  }
+                },
+                {
+                  "id": 3101,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On détermine les coordonnées du point d'équivalence $E$.<br><br>Par la méthode des tangentes parallèles ou le maximum de la dérivée, on obtient :<br><br>$$\nV_{BE} \\approx 14{,}2 \\text{ mL}\n$$\n$$\npH_E \\approx 8\n$$<br><br>**Résultat :** $E(14{,}2 \\text{ mL} ; 8)$"
+                  }
+                },
+                {
+                  "id": 3102,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser la méthode géométrique des tangentes sur la courbe de titrage.",
+                    "error": "Lire de manière imprécise le volume équivalent sur l'axe des abscisses.",
+                    "tip": "Le point d'équivalence correspond au point d'inflexion de la courbe de pH."
+                  }
+                },
+                {
+                  "id": 3103,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On identifie les réactifs limitants avant et après l'équivalence.<br><br>Avant l'équivalence : le réactif titrant $\\text{HO}^-$ est entièrement consommé, il est donc limitant.<br>Après l'équivalence : le réactif titré $\\text{HA}$ est entièrement consommé, il devient le réactif limitant.<br><br>**Résultat :** Avant l'équivalence : $\\text{HO}^-$ limitant. Après l'équivalence : $\\text{HA}$ limitant."
+                  }
+                },
+                {
+                  "id": 3104,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Analyser l'état du système chimique au cours du titrage.",
+                    "error": "Inverser les réactifs limitants.",
+                    "tip": "Le réactif versé à la burette est toujours limitant avant l'équivalence."
+                  }
+                },
+                {
+                  "id": 3105,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On calcule la concentration molaire $C_A$ de l'acide.<br><br>À l'équivalence, on a la relation de proportionnalité :<br><br>$$\nC_A \\cdot V_A = C_B \\cdot V_{BE}\n$$\n<br>On isole $C_A$ :<br><br>$$\nC_A = \\frac{C_B \\cdot V_{BE}}{V_A}\n$$\n<br>Substitution numérique avec $C_B = 2 \\times 10^{-2} \\text{ mol/L}$, $V_{BE} = 14{,}2 \\text{ mL}$ et $V_A = 10 \\text{ mL}$ :<br><br>$$\nC_A = \\frac{2 \\times 10^{-2} \\times 14{,}2}{10} = 2{,}84 \\times 10^{-2} \\text{ mol/L}\n$$<br><br>**Résultat :** $C_A = 2{,}84 \\times 10^{-2} \\text{ mol/L}$"
+                  }
+                },
+                {
+                  "id": 3106,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la formule de l'équivalence acido-basique.",
+                    "error": "Oublier de vérifier la cohérence des unités de volume (ils se simplifient s'ils sont tous deux en mL).",
+                    "tip": "La relation à l'équivalence découle directement des coefficients stœchiométriques de la réaction."
+                  }
+                },
+                {
+                  "id": 3107,
+                  "type": "correction",
+                  "data": {
+                    "label": "5)",
+                    "text": "On calcule la masse $m$ d'acide dissous dans le volume $V = 100 \\text{ mL}$.<br><br>La relation entre la masse, la concentration et la masse molaire est :<br><br>$$\nm = C_A \\cdot M(\\text{HA}) \\cdot V\n$$\n<br>Substitution numérique avec $C_A = 2{,}84 \\times 10^{-2} \\text{ mol/L}$, $M(\\text{HA}) = 176 \\text{ g/mol}$ et $V = 0{,}1 \\text{ L}$ :<br><br>$$\nm = 2{,}84 \\times 10^{-2} \\times 176 \\times 0{,}1 \\approx 0{,}4999 \\text{ g} \\approx 500 \\text{ mg}\n$$<br><br>**Résultat :** $m \\approx 500 \\text{ mg}$"
+                  }
+                },
+                {
+                  "id": 3108,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser la formule de la masse à partir de la concentration molaire.",
+                    "error": "Oublier de convertir le volume $V$ de mL en L.",
+                    "tip": "Faites attention aux chiffres significatifs lors de l'arrondi final."
+                  }
+                },
+                {
+                  "id": 3109,
+                  "type": "correction",
+                  "data": {
+                    "label": "6)",
+                    "text": "On justifie le choix de l'indicateur coloré.<br><br>Le pH à l'équivalence est $pH_E \\approx 8$.<br>La zone de virage de l'indicateur doit contenir cette valeur.<br><br>Le rouge de crésol (zone de virage $[7{,}2 - 8{,}8]$) convient parfaitement car :<br><br>$$\n8 \\in [7{,}2 - 8{,}8]\n$$<br><br>**Résultat :** Le rouge de crésol est l'indicateur le plus adapté."
+                  }
+                },
+                {
+                  "id": 3110,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Vérifier l'inclusion du $pH_E$ dans la zone de virage de l'indicateur.",
+                    "error": "Choisir un indicateur dont la zone de virage est éloignée du $pH_E$.",
+                    "tip": "Un bon indicateur coloré change de couleur brusquement au voisinage immédiat de l'équivalence."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 309,
+              "exercise_id": 209,
+              "title": "Correction - Exercice 9",
+              "blocks": [
+                {
+                  "id": 3111,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On décrit le schéma du dispositif expérimental de dosage.<br><br>Le montage comporte :<br>- Une burette graduée contenant la solution titrante d'acide chlorhydrique.<br>- Un bécher contenant la solution titrée de base.<br>- Un pH-mètre muni de sa sonde de mesure plongée dans le bécher.<br>- Un agitateur magnétique et son barreau aimanté.<br><br>**Résultat :** Montage classique de pH-métrie."
+                  }
+                },
+                {
+                  "id": 3112,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Connaître la verrerie et les instruments d'un titrage.",
+                    "error": "Inverser la position de la solution titrante (dans la burette) et de la solution titrée (dans le bécher).",
+                    "tip": "La solution de concentration inconnue est toujours placée dans le bécher."
+                  }
+                },
+                {
+                  "id": 3113,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On écrit l'équation de la réaction de dosage.<br><br>La réaction entre les ions hydronium et les ions hydroxyde s'écrit :<br><br>$$\n\\text{H}_3\\text{O}^+_{(aq)} + \\text{HO}^-_{(aq)} \\rightarrow 2\\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{H}_3\\text{O}^+ + \\text{HO}^- \\rightarrow 2\\text{H}_2\\text{O}$"
+                  }
+                },
+                {
+                  "id": 3114,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation de neutralisation acido-basique fondamentale.",
+                    "error": "Écrire une double flèche pour une réaction de dosage.",
+                    "tip": "Cette réaction est extrêmement rapide et totale, sa constante d'équilibre vaut $10^{14}$ à 25 °C."
+                  }
+                },
+                {
+                  "id": 3115,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On détermine les coordonnées du point d'équivalence.<br><br>Par la méthode des tangentes ou le pic de la dérivée, on obtient :<br><br>$$\nV_{AE} = 15 \\text{ mL}\n$$\n$$\npH_E = 7\n$$<br><br>**Résultat :** $E(15 \\text{ mL} ; 7)$"
+                  }
+                },
+                {
+                  "id": 3116,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Déterminer graphiquement le point d'équivalence.",
+                    "error": "Faire une erreur de lecture sur l'axe des ordonnées pour le $pH_E$.",
+                    "tip": "Pour le dosage d'un acide fort par une base forte (ou inversement), le pH à l'équivalence est toujours égal à 7 à 25 °C."
+                  }
+                },
+                {
+                  "id": 3117,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On calcule la concentration molaire $C_B$ de la base.<br><br>À l'équivalence :<br><br>$$\nC_B \\cdot V_B = C_A \\cdot V_{AE}\n$$\n<br>On isole $C_B$ :<br><br>$$\nC_B = \\frac{C_A \\cdot V_{AE}}{V_B}\n$$\n<br>Substitution numérique avec $C_A = 0{,}050 \\text{ mol/L}$, $V_{AE} = 15 \\text{ mL}$ et $V_B = 20 \\text{ mL}$ :<br><br>$$\nC_B = \\frac{0{,}050 \\times 15}{20} = 3{,}75 \times 10^{-2} \\text{ mol/L}\n$$<br><br>**Résultat :** $C_B = 3{,}75 \\times 10^{-2} \\text{ mol/L}$"
+                  }
+                },
+                {
+                  "id": 3118,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la relation d'équivalence.",
+                    "error": "Inverser les volumes $V_B$ et $V_{AE}$ dans le calcul.",
+                    "tip": "Vérifiez toujours que le résultat numérique est cohérent avec l'ordre de grandeur des données."
+                  }
+                },
+                {
+                  "id": 3119,
+                  "type": "correction",
+                  "data": {
+                    "label": "5)",
+                    "text": "On choisit l'indicateur coloré le mieux adapté.<br><br>Le pH à l'équivalence est $pH_E = 7$.<br>Le Bleu de Bromothymol (B.B.T.) a une zone de virage de $[6{,}0 - 7{,}6]$.<br><br>Puisque $7 \\in [6{,}0 - 7{,}6]$, le B.B.T. est l'indicateur idéal.<br><br>**Résultat :** Le B.B.T. est l'indicateur le mieux adapté."
+                  }
+                },
+                {
+                  "id": 3120,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Sélectionner l'indicateur coloré dont la zone de virage englobe le $pH_E$.",
+                    "error": "Choisir la phénolphtaléine pour un dosage neutre.",
+                    "tip": "Le B.B.T. vire du jaune au bleu en passant par une teinte sensible verte à pH = 7."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 310,
+              "exercise_id": 210,
+              "title": "Correction - Exercice 10",
+              "blocks": [
+                {
+                  "id": 3121,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-1)",
+                    "text": "On calcule le volume $v$ de solution mère à prélever.<br><br>Lors d'une dilution, la quantité de matière se conserve :<br><br>$$\nC \\cdot v = C_1 \\cdot V_1\n$$\n<br>On sait que l'on veut diluer 100 fois, donc $C = 100 \\cdot C_1$. On en déduit :<br><br>$$\nv = \\frac{C_1 \\cdot V_1}{C} = \\frac{V_1}{100}\n$$\n<br>Substitution numérique avec $V_1 = 100 \\text{ mL}$ :<br><br>$$\nv = \\frac{100}{100} = 1 \\text{ mL}\n$$<br><br>**Résultat :** $v = 1 \\text{ mL}$"
+                  }
+                },
+                {
+                  "id": 3122,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser le facteur de dilution $F = \\frac{C_{mere}}{C_{fille}} = \\frac{V_{fille}}{V_{mere}}$.",
+                    "error": "Confondre le volume de la fiole et le volume de la pipette.",
+                    "tip": "Le volume à prélever est toujours plus petit que le volume final de la solution diluée."
+                  }
+                },
+                {
+                  "id": 3123,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-2)",
+                    "text": "On décrit le protocole expérimental de la dilution.<br><br>1. Prélever $1 \\text{ mL}$ de la solution mère à l'aide d'une pipette jaugée munie d'une propipette.<br>2. Introduire le prélèvement dans une fiole jaugée de $100 \\text{ mL}$.<br>3. Ajouter de l'eau distillée aux deux tiers, agiter pour homogénéiser.<br>4. Compléter avec de l'eau distillée jusqu'au trait de jauge, puis agiter une dernière fois.<br><br>**Résultat :** Protocole de dilution standard."
+                  }
+                },
+                {
+                  "id": 3124,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Rédiger les étapes clés d'une dilution en précisant la verrerie jaugée.",
+                    "error": "Utiliser une éprouvette graduée au lieu d'une fiole jaugée.",
+                    "tip": "La précision d'une dilution repose exclusivement sur l'usage de verrerie jaugée (pipette et fiole)."
+                  }
+                },
+                {
+                  "id": 3125,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-1)",
+                    "text": "On écrit l'équation de la réaction de dosage.<br><br>L'équation s'écrit :<br><br>$$\n\\text{CH}_3\\text{COOH}_{(aq)} + \\text{HO}^-_{(aq)} \\rightarrow \\text{CH}_3\\text{COO}^-_{(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{CH}_3\\text{COOH} + \\text{HO}^- \\rightarrow \\text{CH}_3\\text{COO}^- + \\text{H}_2\\text{O}$"
+                  }
+                },
+                {
+                  "id": 3126,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire la réaction de dosage d'un acide faible par une base forte.",
+                    "error": "Écrire le sodium $\\text{Na}^+$ dans l'équation de réaction.",
+                    "tip": "Les ions sodium sont spectateurs et n'apparaissent pas dans l'équation chimique simplifiée."
+                  }
+                },
+                {
+                  "id": 3127,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-2)",
+                    "text": "On calcule la concentration $C_1$ puis la concentration $C$ de la solution mère.<br><br>À l'équivalence du dosage :<br><br>$$\nC_1 \\cdot V_1 = C_b \\cdot V_b\n$$\n<br>On isole $C_1$ :<br><br>$$\nC_1 = \\frac{C_b \\cdot V_b}{V_1}\n$$\n<br>Substitution numérique avec $C_b = 1{,}02 \\times 10^{-2} \\text{ mol/L}$, $V_b = 10 \\text{ mL}$ et $V_1 = 10 \\text{ mL}$ :<br><br>$$\nC_1 = 1{,}02 \\times 10^{-2} \\text{ mol/L}\n$$\n<br>La solution mère étant 100 fois plus concentrée :<br><br>$$\nC = 100 \\cdot C_1 = 1{,}02 \\text{ mol/L}\n$$<br><br>**Résultat :** $C = 1{,}02 \\text{ mol/L}$"
+                  }
+                },
+                {
+                  "id": 3128,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Calculer la concentration de la solution diluée puis remonter à la solution mère.",
+                    "error": "Oublier de multiplier par le facteur de dilution pour obtenir $C$.",
+                    "tip": "Vérifiez toujours que la concentration de la solution mère est bien supérieure à celle de la solution fille."
+                  }
+                },
+                {
+                  "id": 3129,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-3)",
+                    "text": "On calcule le pourcentage en masse $p$ d'acide dans le vinaigre.<br><br>Par définition, le pourcentage en masse est :<br><br>$$\np = \\frac{m_{\\text{acide}}}{m_{\\text{solution}}} = \\frac{C \\cdot M \\cdot V}{\\rho \\cdot d \\cdot V} = \\frac{C \\cdot M}{\\rho_{\\text{eau}} \\cdot d}\n$$\n<br>Substitution numérique avec $C = 1{,}02 \\text{ mol/L}$, $M = 60 \\text{ g/mol}$, $d = 1{,}01$ et $\\rho_{\\text{eau}} = 1000 \\text{ g/L}$ :<br><br>$$\np = \\frac{1{,}02 \\times 60}{1010} \\approx 0{,}06 = 6\\%\n$$<br><br>Ce résultat est en parfait accord avec l'étiquette du vinaigre à 6°.<br><br>**Résultat :** $p \\approx 6\\%$"
+                  }
+                },
+                {
+                  "id": 3130,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Relier la concentration molaire au pourcentage massique en utilisant la densité.",
+                    "error": "Confondre la densité et la masse volumique dans les unités.",
+                    "tip": "Le degré d'un vinaigre représente le pourcentage massique d'acide éthanoïque contenu dans la solution."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 311,
+              "exercise_id": 211,
+              "title": "Correction - Exercice 11",
+              "blocks": [
+                {
+                  "id": 3131,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On calcule le rapport des concentrations du couple phosphate.<br><br>D'après la relation d'Henderson-Hasselbalch :<br><br>$$\npH = pK_A + \\log \\frac{[\\text{HPO}_4^{2-}]}{[\\text{H}_2\\text{PO}_4^-]}\n$$\n<br>On en déduit :<br><br>$$\n\\frac{[\\text{H}_2\\text{PO}_4^-]}{[\\text{HPO}_4^{2-}]} = 10^{pK_A - pH}\n$$\n<br>Substitution numérique avec $pK_A = 6{,}82$ et $pH = 7{,}4$ :<br><br>$$\n\\frac{[\\text{H}_2\\text{PO}_4^-]}{[\\text{HPO}_4^{2-}]} = 10^{6{,}82 - 7{,}4} = 10^{-0{,}58} \\approx 0{,}263\n$$<br><br>**Résultat :** Le rapport vaut $0{,}263$."
+                  }
+                },
+                {
+                  "id": 3132,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer le rapport des concentrations à partir de la formule du pH.",
+                    "error": "Inverser le rapport acide/base.",
+                    "tip": "Puisque le pH (7,4) est supérieur au $pK_A$ (6,82), la forme basique $\\text{HPO}_4^{2-}$ doit prédominer, donc le rapport acide/base doit être inférieur à 1."
+                  }
+                },
+                {
+                  "id": 3133,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On calcule la concentration en ions dihydrogénophosphate $[\\text{H}_2\\text{PO}_4^-]$.<br><br>On utilise le rapport calculé précédemment :<br><br>$$\n[\\text{H}_2\\text{PO}_4^-] = 0{,}263 \\cdot [\\text{HPO}_4^{2-}]\n$$\n<br>Substitution numérique avec $[\\text{HPO}_4^{2-}] = 0{,}275 \\text{ mol/L}$ :<br><br>$$\n[\\text{H}_2\\text{PO}_4^-] = 0{,}263 \\times 0{,}275 \\approx 0{,}072 \\text{ mol/L}\n$$<br><br>**Résultat :** $[\\text{H}_2\\text{PO}_4^-] \\approx 0{,}072 \\text{ mol/L}$"
+                  }
+                },
+                {
+                  "id": 3134,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Calculer une concentration inconnue à partir d'un rapport connu.",
+                    "error": "Faire une erreur d'arrondi intermédiaire.",
+                    "tip": "Conservez les valeurs non arrondies dans votre calculatrice pour le calcul final."
+                  }
+                },
+                {
+                  "id": 3135,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On écrit l'équation de la réaction entre l'acide lactique et les ions hydrogénophosphate.<br><br>L'équation s'écrit :<br><br>$$\n\\text{C}_3\\text{H}_6\\text{O}_{3(aq)} + \\text{HPO}_{4(aq)}^{2-} \\rightarrow \\text{C}_3\\text{H}_5\\text{O}_{3(aq)}^- + \\text{H}_2\\text{PO}_{4(aq)}^-\n$$<br><br>**Résultat :** $\\text{C}_3\\text{H}_6\\text{O}_3 + \\text{HPO}_4^{2-} \\rightarrow \\text{C}_3\\text{H}_5\\text{O}_3^- + \\text{H}_2\\text{PO}_4^-$"
+                  }
+                },
+                {
+                  "id": 3136,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire une réaction de transfert de proton entre un acide carboxylique et un ion phosphate basique.",
+                    "error": "Se tromper dans les charges des ions phosphates.",
+                    "tip": "L'ion hydrogénophosphate $\\text{HPO}_4^{2-}$ capte un proton pour devenir $\\text{H}_2\\text{O}_4^-$."
+                  }
+                },
+                {
+                  "id": 3137,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On calcule le nouveau pH de la solution après injection d'acide lactique.<br><br>La réaction étant totale, les nouvelles concentrations sont :<br><br>$$\n[\\text{HPO}_4^{2-}]_f = 0{,}275 - 0{,}035 = 0{,}240 \\text{ mol/L}\n$$\n$$\n[\\text{H}_2\\text{PO}_4^-]_f = 0{,}072 + 0{,}035 = 0{,}107 \\text{ mol/L}\n$$\n<br>On applique la formule du pH :<br><br>$$\npH = pK_A + \\log \\frac{[\\text{HPO}_4^{2-}]_f}{[\\text{H}_2\\text{PO}_4^-]_f}\n$$\n<br>Substitution numérique :<br><br>$$\npH = 6{,}82 + \\log \\frac{0{,}240}{0{,}107} \\approx 6{,}82 + 0{,}35 = 7{,}17 \\approx 7{,}2\n$$<br><br>**Résultat :** $pH \\approx 7{,}2$"
+                  }
+                },
+                {
+                  "id": 3138,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Effectuer un bilan de matière pour déterminer les concentrations finales avant d'appliquer la formule du pH.",
+                    "error": "Soustraire la quantité d'acide au lieu de l'ajouter à la forme acide conjuguée.",
+                    "tip": "L'ajout d'un acide fait logiquement baisser le pH de la solution tampon, ici de 7,4 à 7,2."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 312,
+              "exercise_id": 212,
+              "title": "Correction - Exercice 12",
+              "blocks": [
+                {
+                  "id": 3139,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.a)",
+                    "text": "On écrit l'équation de dissolution du benzoate de sodium dans l'eau.<br><br>L'équation s'écrit :<br><br>$$\n\\text{C}_6\\text{H}_5\\text{COONa}_{(s)} \\xrightarrow{\\text{H}_2\\text{O}} \\text{C}_6\\text{H}_5\\text{COO}^-_{(aq)} + \\text{Na}^+_{(aq)}\n$$<br><br>**Résultat :** $\\text{C}_6\\text{H}_5\\text{COONa}_{(s)} \\rightarrow \\text{C}_6\\text{H}_5\\text{COO}^- + \\text{Na}^+$"
+                  }
+                },
+                {
+                  "id": 3140,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation de dissociation totale d'un sel ionique.",
+                    "error": "Écrire une réaction limitée pour la dissolution d'un sel très soluble.",
+                    "tip": "Les sels de sodium sont totalement solubles dans l'eau."
+                  }
+                },
+                {
+                  "id": 3141,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.b)",
+                    "text": "On écrit l'équation de la réaction de l'ion benzoate avec l'eau.<br><br>L'équation s'écrit :<br><br>$$\n\\text{C}_6\\text{H}_5\\text{COO}^-_{(aq)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{C}_6\\text{H}_5\\text{COOH}_{(aq)} + \\text{HO}^-_{(aq)}\n$$<br><br>**Résultat :** $\\text{C}_6\\text{H}_5\\text{COO}^- + \\text{H}_2\\text{O} \\rightleftharpoons \\text{C}_6\\text{H}_5\\text{COOH} + \\text{HO}^-$"
+                  }
+                },
+                {
+                  "id": 3142,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire la réaction d'une base faible avec l'eau.",
+                    "error": "Produire des ions hydronium au lieu d'ions hydroxyde.",
+                    "tip": "L'ion benzoate est une base, il capte un proton de l'eau pour libérer des ions $\\text{HO}^-$."
+                  }
+                },
+                {
+                  "id": 3143,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.c)",
+                    "text": "On calcule la constante d'équilibre $K_1$ de cette réaction.<br><br>La constante s'exprime par :<br><br>$$\nK_1 = \\frac{K_e}{K_A} = 10^{pK_A - pK_e}\n$$\n<br>Substitution numérique avec $pK_A = 4{,}2$ et $pK_e = 14$ :<br><br>$$\nK_1 = 10^{4{,}2 - 14} = 10^{-9{,}8} \\approx 1{,}58 \\times 10^{-10}\n$$<br><br>**Résultat :** $K_1 \\approx 1{,}58 \\times 10^{-10}$"
+                  }
+                },
+                {
+                  "id": 3144,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer la constante de basicité en fonction de $K_A$ et $K_e$.",
+                    "error": "Faire une erreur de signe dans la puissance de 10.",
+                    "tip": "Une constante d'équilibre extrêmement faible confirme que la base réagit très peu avec l'eau."
+                  }
+                },
+                {
+                  "id": 3145,
+                  "type": "correction",
+                  "data": {
+                    "label": "1.d)",
+                    "text": "On calcule la concentration molaire $C$ de la solution.<br><br>La relation est :<br><br>$$\nC = \\frac{m}{M \\cdot V}\n$$\n<br>Substitution numérique avec $m = 0{,}72 \\text{ g}$, $M = 144 \\text{ g/mol}$ et $V = 0{,}1 \\text{ L}$ :<br><br>$$\nC = \\frac{0{,}72}{144 \\times 0{,}1} = 0{,}05 \\text{ mol/L}\n$$<br><br>**Résultat :** $C = 0{,}05 \\text{ mol/L}$"
+                  }
+                },
+                {
+                  "id": 3146,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la formule de la concentration molaire d'un soluté.",
+                    "error": "Oublier de convertir le volume en litres.",
+                    "tip": "Vérifiez toujours la cohérence des unités : g / (g/mol * L) donne bien des mol/L."
+                  }
+                },
+                {
+                  "id": 3147,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.a)",
+                    "text": "On écrit l'équation de la réaction de dosage.<br><br>L'équation s'écrit :<br><br>$$\n\\text{C}_6\\text{H}_5\\text{COO}^-_{(aq)} + \\text{H}_3\\text{O}^+_{(aq)} \\rightarrow \\text{C}_6\\text{H}_5\\text{COOH}_{(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{C}_6\\text{H}_5\\text{COO}^- + \\text{H}_3\\text{O}^+ \\rightarrow \\text{C}_6\\text{H}_5\\text{COOH} + \\text{H}_2\\text{O}$"
+                  }
+                },
+                {
+                  "id": 3148,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation de dosage d'une base faible par un acide fort.",
+                    "error": "Utiliser une double flèche pour une réaction de dosage.",
+                    "tip": "La réaction de dosage est rapide et totale, on utilise une flèche simple."
+                  }
+                },
+                {
+                  "id": 3149,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.b)",
+                    "text": "On calcule la constante d'équilibre $K$ et on conclut.<br><br>La constante d'équilibre est l'inverse de la constante d'acidité :<br><br>$$\nK = \\frac{1}{K_A} = 10^{pK_A}\n$$\n<br>Substitution numérique :<br><br>$$\nK = 10^{4{,}2} \\approx 1{,}58 \\times 10^4\n$$\n<br>Puisque $K > 10^4$, la réaction est totale.<br><br>**Résultat :** $K \\approx 1{,}58 \\times 10^4$ (réaction totale)"
+                  }
+                },
+                {
+                  "id": 3150,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier la constante d'équilibre comme l'inverse de $K_A$.",
+                    "error": "Calculer $K_A$ au lieu de son inverse.",
+                    "tip": "La réaction inverse de la dissociation d'un acide a pour constante $1/K_A$."
+                  }
+                },
+                {
+                  "id": 3151,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.c)",
+                    "text": "On calcule le volume $V'$ d'acide à ajouter pour atteindre la demi-équivalence.<br><br>À la demi-équivalence, le volume d'acide versé est la moitié du volume équivalent :<br><br>$$\nV' = \\frac{V_E}{2}\n$$\n<br>Or, à l'équivalence :<br><br>$$\nC \\cdot V = C' \\cdot V_E \\implies V_E = \\frac{C \\cdot V}{C'}\n$$\n<br>On en déduit :<br><br>$$\nV' = \\frac{C \\cdot V}{2 \\cdot C'}\n$$\n<br>Substitution numérique avec $C = 0{,}05 \\text{ mol/L}$, $V = 100 \\text{ mL}$ et $C' = 0{,}1 \\text{ mol/L}$ :<br><br>$$\nV' = \\frac{0{,}05 \\times 100}{2 \\times 0{,}1} = 25 \\text{ mL}\n$$<br><br>**Résultat :** $V' = 25 \\text{ mL}$"
+                  }
+                },
+                {
+                  "id": 3152,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser la définition de la demi-équivalence.",
+                    "error": "Confondre le volume de demi-équivalence avec le volume d'équivalence.",
+                    "tip": "À la demi-équivalence, les concentrations de l'acide et de sa base conjuguée sont égales."
+                  }
+                },
+                {
+                  "id": 3153,
+                  "type": "correction",
+                  "data": {
+                    "label": "2.d)",
+                    "text": "On détermine le pH à la demi-équivalence.<br><br>À la demi-équivalence, on a $[\\text{C}_6\\text{H}_5\\text{COOH}] = [\\text{C}_6\\text{H}_5\\text{COO}^-]$.<br>La relation d'Henderson-Hasselbalch se simplifie en :<br><br>$$\npH = pK_A\n$$\n<br>Substitution numérique :<br><br>$$\npH = 4{,}2\n$$<br><br>**Résultat :** $pH = 4{,}2$"
+                  }
+                },
+                {
+                  "id": 3154,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la propriété fondamentale de la demi-équivalence.",
+                    "error": "Tenter un calcul complexe de concentrations alors que la relation est directe.",
+                    "tip": "Le pH à la demi-équivalence est toujours égal au $pK_A$ du couple titré."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 313,
+              "exercise_id": 213,
+              "title": "Correction - Exercice 13",
+              "blocks": [
+                {
+                  "id": 3155,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-1)",
+                    "text": "On détermine l'espèce prédominante à $pH = 8{,}5$.<br><br>On compare le pH au $pK_A$ du couple $\\text{HClO}/\\text{ClO}^-$ ($pK_A = 7{,}5$).<br>Puisque :<br><br>$$\npH > pK_A \\quad (8{,}5 > 7{,}5)\n$$\n<br>La forme basique prédomine.<br><br>**Résultat :** L'ion hypochlorite $\\text{ClO}^-$ prédomine."
+                  }
+                },
+                {
+                  "id": 3156,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Comparer le pH de la solution au $pK_A$ du couple.",
+                    "error": "Conclure que l'acide prédomine car le pH est basique.",
+                    "tip": "La prédominance dépend uniquement de la position du pH par rapport au $pK_A$, pas de la neutralité (pH = 7)."
+                  }
+                },
+                {
+                  "id": 3157,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-2)",
+                    "text": "On calcule le rapport des concentrations.<br><br>D'après la relation d'Henderson-Hasselbalch :<br><br>$$\n\\frac{[\\text{ClO}^-]}{[\\text{HClO}]} = 10^{pH - pK_A}\n$$\n<br>Substitution numérique :<br><br>$$\n\\frac{[\\text{ClO}^-]}{[\\text{HClO}]} = 10^{8{,}5 - 7{,}5} = 10^1 = 10\n$$<br><br>**Résultat :** Le rapport vaut $10$."
+                  }
+                },
+                {
+                  "id": 3158,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer le rapport des concentrations à l'aide des puissances de 10.",
+                    "error": "Inverser le rapport acide/base dans l'exposant.",
+                    "tip": "Un rapport de 10 signifie qu'il y a 10 fois plus de base que d'acide en solution."
+                  }
+                },
+                {
+                  "id": 3159,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-1)",
+                    "text": "On calcule la constante d'équilibre $K$ de la réaction.<br><br>La réaction est l'inverse de la dissociation de l'acide :<br><br>$$\nK = \\frac{1}{K_A} = 10^{pK_A}\n$$\n<br>Substitution numérique :<br><br>$$\nK = 10^{7{,}5} \\approx 3{,}16 \\times 10^7\n$$<br><br>**Résultat :** $K = 10^{7{,}5}$"
+                  }
+                },
+                {
+                  "id": 3160,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier la constante d'équilibre d'une réaction inverse.",
+                    "error": "Utiliser $K_A$ directement.",
+                    "tip": "La constante d'une réaction d'association protonique est toujours très grande."
+                  }
+                },
+                {
+                  "id": 3161,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-2.a)",
+                    "text": "On calcule la concentration initiale en ions hydronium $[\\text{H}_3\\text{O}^+]_i$.<br><br>D'après les données de l'énoncé :<br><br>$$\n[\\text{H}_3\\text{O}^+]_i \\approx \\frac{0{,}10}{1{,}0 \\times 10^5} = 1{,}0 \\times 10^{-6} \\text{ mol/L}\n$$<br><br>**Résultat :** $[\\text{H}_3\\text{O}^+]_i = 1{,}0 \\times 10^{-6} \\text{ mol/L}$"
+                  }
+                },
+                {
+                  "id": 3162,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Extraire et calculer la concentration initiale à partir des données de dilution ou de mélange.",
+                    "error": "Confondre concentration initiale et concentration à l'équilibre.",
+                    "tip": "L'état initial correspond à l'instant du mélange avant toute évolution chimique."
+                  }
+                },
+                {
+                  "id": 3163,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-2.b)",
+                    "text": "On calcule le quotient de réaction initial $Q_{r,i}$.<br><br>Par définition :<br><br>$$\nQ_{r,i} = \\frac{1}{[\\text{H}_3\\text{O}^+]_i} \\cdot \\frac{[\\text{ClO}^-]_i}{[\\text{HClO}]_i}\n$$\n<br>Substitution numérique avec les valeurs initiales :<br><br>$$\nQ_{r,i} = 10^5 \\times 10 = 10^6\n$$<br><br>**Résultat :** $Q_{r,i} = 10^6$"
+                  }
+                },
+                {
+                  "id": 3164,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la définition du quotient de réaction à l'état initial.",
+                    "error": "Oublier d'inclure la concentration en ions hydronium au dénominateur.",
+                    "tip": "Le quotient de réaction a la même forme mathématique que la constante d'équilibre mais utilise les concentrations initiales."
+                  }
+                },
+                {
+                  "id": 3165,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-3)",
+                    "text": "On détermine le sens d'évolution du système.<br><br>On compare $Q_{r,i}$ à la constante d'équilibre $K$ :<br><br>$$\nQ_{r,i} = 10^6 < K = 10^{7{,}5}\n$$\n<br>Puisque $Q_{r,i} < K$, le système évolue dans le sens direct.<br><br>**Résultat :** Évolution dans le sens direct."
+                  }
+                },
+                {
+                  "id": 3166,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer le critère d'évolution spontanée.",
+                    "error": "Inverser le sens d'évolution en comparant mal les puissances de 10.",
+                    "tip": "Si $Q_r < K$, la réaction progresse vers la droite pour consommer les réactifs et former les produits."
+                  }
+                },
+                {
+                  "id": 3167,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-4)",
+                    "text": "On analyse l'effet de l'ajout d'acide.<br><br>L'ajout d'un acide apporte des ions $\\text{H}_3\\text{O}^+$, ce qui augmente leur concentration. Par conséquent, le pH de la solution diminue.<br><br>**Résultat :** Le pH diminue."
+                  }
+                },
+                {
+                  "id": 3168,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Relier l'ajout d'un réactif acide à la variation du pH.",
+                    "error": "Penser que l'ajout d'acide augmente le pH.",
+                    "tip": "Plus une solution est riche en ions hydronium, plus elle est acide, et plus son pH est bas."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 314,
+              "exercise_id": 214,
+              "title": "Correction - Exercice 14",
+              "blocks": [
+                {
+                  "id": 3169,
+                  "type": "correction",
+                  "data": {
+                    "label": "1)",
+                    "text": "On qualifie la nature chimique de l'ion hydrogénocarbonate $\\text{HCO}_3^-$.<br><br>L'ion $\\text{HCO}_3^-$ est l'acide du couple $\\text{HCO}_3^-/\\text{CO}_3^{2-}$ et la base du couple $\\text{CO}_2, \\text{H}_2\\text{O}/\\text{HCO}_3^-$.<br>Capable de se comporter à la fois comme un acide et comme une base, c'est un ampholyte (ou une espèce amphotère).<br><br>**Résultat :** $\\text{HCO}_3^-$ est un ampholyte."
+                  }
+                },
+                {
+                  "id": 3170,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier une espèce appartenant à deux couples acido-basiques différents.",
+                    "error": "Confondre ampholyte et solution tampon.",
+                    "tip": "L'eau $\\text{H}_2\\text{O}$ est l'ampholyte le plus célèbre."
+                  }
+                },
+                {
+                  "id": 3171,
+                  "type": "correction",
+                  "data": {
+                    "label": "2)",
+                    "text": "On écrit l'équation de la réaction entre le dioxyde de carbone dissous et les ions hydroxyde, puis on calcule sa constante $K_1$.<br><br>L'équation s'écrit :<br><br>$$\n\\text{CO}_2, \\text{H}_2\\text{O}_{(aq)} + \\text{HO}^-_{(aq)} \\rightleftharpoons \\text{HCO}^-_{3(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$\n<br>La constante d'équilibre associée est :<br><br>$$\nK_1 = \\frac{K_{A1}}{K_e}\n$$\n<br>Substitution numérique avec $pK_{A1} = 6{,}4$ et $pK_e = 14$ :<br><br>$$\nK_1 = 10^{14 - 6{,}4} = 10^{7{,}6} \\approx 4{,}0 \\times 10^7\n$$<br><br>**Résultat :** $K_1 \\approx 4{,}0 \times 10^7$"
+                  }
+                },
+                {
+                  "id": 3172,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Exprimer la constante d'équilibre d'une réaction de neutralisation partielle.",
+                    "error": "Oublier d'associer le dioxyde de carbone à sa forme hydratée $\\text{CO}_2, \\text{H}_2\\text{O}$.",
+                    "tip": "Le dioxyde de carbone en solution aqueuse se comporte comme un diacide."
+                  }
+                },
+                {
+                  "id": 3173,
+                  "type": "correction",
+                  "data": {
+                    "label": "3)",
+                    "text": "On écrit l'équation de la réaction entre l'ion hydrogénocarbonate et les ions hydroxyde, puis on calcule sa constante $K_2$.<br><br>L'équation s'écrit :<br><br>$$\n\\text{HCO}^-_{3(aq)} + \\text{HO}^-_{(aq)} \\rightleftharpoons \\text{CO}^{2-}_{3(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$\n<br>La constante d'équilibre associée est :<br><br>$$\nK_2 = \\frac{K_{A2}}{K_e}\n$$\n<br>Substitution numérique avec $pK_{A2} = 10{,}3$ et $pK_e = 14$ :<br><br>$$\nK_2 = 10^{14 - 10{,}3} = 10^{3{,}7} \\approx 5{,}0 \\times 10^3\n$$<br><br>**Résultat :** $K_2 \\approx 5{,}0 \\times 10^3$"
+                  }
+                },
+                {
+                  "id": 3174,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la même méthode de calcul pour la deuxième acidité.",
+                    "error": "Confondre les constantes $K_{A1}$ et $K_{A2}$.",
+                    "tip": "La deuxième acidité d'un polyacide est toujours plus faible que la première ($pK_{A2} > pK_{A1}$)."
+                  }
+                },
+                {
+                  "id": 3175,
+                  "type": "correction",
+                  "data": {
+                    "label": "4)",
+                    "text": "On écrit l'équation globale de la réaction et on calcule sa constante $K$.<br><br>L'équation globale s'écrit :<br><br>$$\n\\text{CO}_2, \\text{H}_2\\text{O}_{(aq)} + 2\\text{HO}^-_{(aq)} \\rightleftharpoons \\text{CO}^{2-}_{3(aq)} + 2\\text{H}_2\\text{O}_{(l)}\n$$\n<br>La constante d'équilibre globale est le produit des deux constantes intermédiaires :<br><br>$$\nK = K_1 \\cdot K_2 = \\frac{K_{A1} \\cdot K_{A2}}{K_e^2}\n$$\n<br>Substitution numérique :<br><br>$$\nK = 4{,}0 \\times 10^7 \\times 5{,}0 \\times 10^3 = 2{,}0 \\times 10^{11}\n$$<br><br>**Résultat :** $K = 2{,}0 \\times 10^{11}$"
+                  }
+                },
+                {
+                  "id": 3176,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Multiplier les constantes d'équilibre lors de la somme d'équations chimiques.",
+                    "error": "Additionner les constantes d'équilibre au lieu de les multiplier.",
+                    "tip": "Lorsqu'on additionne deux réactions, on multiplie leurs constantes d'équilibre respectives."
+                  }
+                },
+                {
+                  "id": 3177,
+                  "type": "correction",
+                  "data": {
+                    "label": "5)",
+                    "text": "On analyse l'évolution du pH de la solution de soude exposée à l'air.<br><br>Le dioxyde de carbone de l'air se dissout et réagit avec les ions hydroxyde $\\text{HO}^-$ de la soude selon la réaction globale précédente.<br>La consommation des ions $\\text{HO}^-$ entraîne une diminution de leur concentration, ce qui provoque une baisse du pH (acidification de la solution).<br><br>**Résultat :** Le pH diminue."
+                  }
+                },
+                {
+                  "id": 3178,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Relier la consommation d'une base à la baisse du pH.",
+                    "error": "Penser que le pH reste stable grâce à l'effet tampon sans vérifier les proportions.",
+                    "tip": "La soude se 'carbonate' à l'air libre, ce qui altère sa concentration."
+                  }
+                },
+                {
+                  "id": 3179,
+                  "type": "correction",
+                  "data": {
+                    "label": "6)",
+                    "text": "On propose une précaution de conservation.<br><br>Pour éviter la carbonatation de la soude par le $\\text{CO}_2$ de l'air, il faut conserver la solution dans un flacon hermétiquement bouché et limiter son exposition à l'air libre.<br><br>**Résultat :** Conserver dans un flacon hermétique."
+                  }
+                },
+                {
+                  "id": 3180,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Proposer des solutions pratiques de laboratoire basées sur la réactivité chimique.",
+                    "error": "Suggérer d'utiliser un flacon ouvert.",
+                    "tip": "Les solutions de soude concentrées attaquent également le verre à long terme, on préfère souvent des flacons en plastique (polyéthylène)."
+                  }
+                }
+              ]
+            },
+            {
+              "id": 315,
+              "exercise_id": 215,
+              "title": "Correction - Exercice 15",
+              "blocks": [
+                {
+                  "id": 3181,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-1)",
+                    "text": "On détermine graphiquement la valeur du $pK_A$.<br><br>À l'intersection des deux courbes de distribution, on a :<br><br>$$\n[\\text{base}] = [\\text{acide}]\n$$\n<br>Ce qui implique :<br><br>$$\npH = pK_A\n$$\n<br>Par lecture graphique de l'abscisse du point d'intersection, on trouve :<br><br>$$\npK_A = 3{,}8\n$$<br><br>**Résultat :** $pK_A = 3{,}8$"
+                  }
+                },
+                {
+                  "id": 3182,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Identifier le point d'intersection sur un diagramme de distribution.",
+                    "error": "Lire l'ordonnée (qui vaut toujours 50%) au lieu de l'abscisse (pH).",
+                    "tip": "Le point d'intersection de deux courbes de distribution correspond toujours à $pH = pK_A$."
+                  }
+                },
+                {
+                  "id": 3183,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-2)",
+                    "text": "On détermine les pourcentages des espèces à $pH = 5{,}0$.<br><br>Par lecture graphique à l'abscisse $pH = 5{,}0$ :<br>- La courbe de la forme basique indique environ $94\\%$.<br>- La courbe de la forme acide indique environ $6\\%$.<br><br>**Résultat :** $94\\%$ de base et $6\\%$ d'acide."
+                  }
+                },
+                {
+                  "id": 3184,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Lire précisément les ordonnées de deux courbes distinctes pour une même abscisse.",
+                    "error": "Donner des valeurs dont la somme ne fait pas 100%.",
+                    "tip": "La somme des pourcentages de l'acide et de sa base conjuguée est toujours égale à 100%."
+                  }
+                },
+                {
+                  "id": 3185,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-3)",
+                    "text": "On détermine graphiquement le pH pour un rapport de $2/3$ d'acide et $1/3$ de base.<br><br>En pourcentage, cela correspond à :<br>- Acide : $67\\%$.<br>- Base : $33\\%$.<br><br>Graphiquement, l'abscisse correspondant à ces proportions est :<br><br>$$\npH \\approx 3{,}5\n$$<br><br>**Résultat :** $pH \\approx 3{,}5$"
+                  }
+                },
+                {
+                  "id": 3186,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Convertir des fractions en pourcentages pour les reporter sur le graphique.",
+                    "error": "Inverser les courbes de l'acide et de la base lors de la lecture.",
+                    "tip": "La courbe qui décroît lorsque le pH augmente représente toujours l'acide."
+                  }
+                },
+                {
+                  "id": 3187,
+                  "type": "correction",
+                  "data": {
+                    "label": "I-4)",
+                    "text": "On vérifie le résultat précédent par le calcul.<br><br>On applique la formule du pH :<br><br>$$\npH = pK_A + \\log \\frac{[\\text{base}]}{[\\text{acide}]}\n$$\n<br>Substitution numérique avec $pK_A = 3{,}8$ et le rapport $\\frac{\\text{base}}{\\text{acide}} = \\frac{1/3}{2/3} = \\frac{1}{2}$ :<br><br>$$\npH = 3{,}8 + \\log(0{,}5) \\approx 3{,}8 - 0{,}3 = 3{,}5\n$$<br><br>Le calcul confirme parfaitement la lecture graphique.<br><br>**Résultat :** $pH = 3{,}5$ (cohérent)"
+                  }
+                },
+                {
+                  "id": 3188,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Utiliser la formule d'Henderson-Hasselbalch pour valider une lecture graphique.",
+                    "error": "Se tromper dans le calcul du logarithme d'un nombre inférieur à 1 (qui est négatif).",
+                    "tip": "Le logarithme de 0,5 vaut environ -0,3."
+                  }
+                },
+                {
+                  "id": 3189,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-1)",
+                    "text": "On écrit l'équation de la réaction de dosage.<br><br>L'équation s'écrit :<br><br>$$\n\\text{HCO}_2\\text{H}_{(aq)} + \\text{HO}^-_{(aq)} \\rightarrow \\text{HCO}_2^-_{(aq)} + \\text{H}_2\\text{O}_{(l)}\n$$<br><br>**Résultat :** $\\text{HCO}_2\\text{H} + \\text{HO}^- \\rightarrow \\text{HCO}_2^- + \\text{H}_2\\text{O}$"
+                  }
+                },
+                {
+                  "id": 3190,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Écrire l'équation de dosage d'un acide faible par une base forte.",
+                    "error": "Utiliser une double flèche.",
+                    "tip": "La réaction de dosage est totale, on utilise une flèche simple."
+                  }
+                },
+                {
+                  "id": 3191,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-2)",
+                    "text": "On calcule théoriquement le volume équivalent $V_{BE}$.<br><br>À l'équivalence :<br><br>$$\nC_A \\cdot V_A = C_B \\cdot V_{BE}\n$$\n<br>On isole $V_{BE}$ :<br><br>$$\nV_{BE} = \\frac{C_A \\cdot V_A}{C_B}\n$$\n<br>Substitution numérique avec les données de l'exercice :<br><br>$$\nV_{BE} = 15 \\text{ mL}\n$$<br><br>**Résultat :** $V_{BE} = 15 \\text{ mL}$"
+                  }
+                },
+                {
+                  "id": 3192,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Appliquer la relation d'équivalence pour prévoir le volume équivalent.",
+                    "error": "Se tromper dans les unités de volume.",
+                    "tip": "Garder les volumes en mL permet d'obtenir directement le résultat en mL."
+                  }
+                },
+                {
+                  "id": 3193,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-3)",
+                    "text": "On détermine expérimentalement le volume équivalent.<br><br>Le pic de la courbe dérivée $\\frac{dpH}{dV}$ correspond exactement à l'équivalence.<br>Graphiquement, le sommet du pic se situe à :<br><br>$$\nV_{BE} = 15 \\text{ mL}\n$$<br><br>**Résultat :** $V_{BE} = 15 \\text{ mL}$"
+                  }
+                },
+                {
+                  "id": 3194,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Déterminer l'équivalence grâce à la courbe dérivée.",
+                    "error": "Confondre l'abscisse du pic (volume) et son ordonnée (valeur de la dérivée).",
+                    "tip": "L'abscisse du maximum de la dérivée donne directement le volume équivalent."
+                  }
+                },
+                {
+                  "id": 3195,
+                  "type": "correction",
+                  "data": {
+                    "label": "II-4)",
+                    "text": "On identifie les réactifs limitants.<br><br>Avant l'équivalence : l'ion hydroxyde $\\text{HO}^-$ versé est entièrement consommé, il est donc limitant.<br>Après l'équivalence : l'acide méthanoïque $\\text{HCO}_2\\text{H}$ initialement présent est entièrement consommé, il devient le réactif limitant.<br><br>**Résultat :** Avant : $\\text{HO}^-$ limitant. Après : $\\text{HCO}_2\\text{H}$ limitant."
+                  }
+                },
+                {
+                  "id": 3196,
+                  "type": "pedagogical_advice",
+                  "data": {
+                    "method": "Analyser l'état final du système avant et après l'équivalence.",
+                    "error": "Inverser les deux domaines de limitation.",
+                    "tip": "Le réactif titré est en excès avant l'équivalence et totalement consommé après."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

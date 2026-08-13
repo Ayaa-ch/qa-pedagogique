@@ -1,0 +1,85 @@
+
+=== VALIDATION ===
+- Exercice 205 / Correction 305: '4)' divisee en 2 reponse(s) :
+- 4.a) (bloc 3198) : question: Calculer la valeur de la constante d'équilibre de la réaction acido-basique étudiée.<br><b… — contenu attribue: On calcule la valeur numérique de la constante d'équilibre $K$. On utilise la relation établie précédemment : $$ K = \frac{K_A}{K_e} $$ Subs…
+- 4.b) (bloc 3199) : question: La réaction est-elle totale ? — contenu attribue: Puisque $K > 10^4$, la réaction est totale. **Résultat :** La réaction est totale.
+- Exercice 204 / Correction 304: 1 reponse(s) generee(s) pour 1 marqueur(s) manquant(s)
+- label 2.a) (bloc 3197) : question: On mélange une solution d'acide formique et une solution de méthylamine. L'acide formique … — reponse generee: On mélange une solution d'acide formique et une solution de méthylamine. L'acide formique et la méthylamine peuvent-ils coexister ?<br><br>P…
+Resultat: 1 label(s) realigne(s), 1 reponse(s) generee(s), 0 cas en verification manuelle
+
+=== RENDU (LaTeX/HTML/Markdown) ===
+- [WARNING] x1 — block 1002 slide 101: saut de ligne reel dans un bloc $$...$… — b1002/s101
+- [WARNING] x1 — block 1003 slide 101: saut de ligne reel dans un bloc $$...$… — b1003/s101
+- [WARNING] x1 — block 1004 slide 101: saut de ligne reel dans un bloc $$...$… — b1004/s101
+- [WARNING] x1 — block 1009 slide 103: saut de ligne reel dans un bloc $$...$… — b1009/s103
+- [WARNING] x1 — block 1010 slide 103: saut de ligne reel dans un bloc $$...$… — b1010/s103
+- [WARNING] x1 — block 3009 slide 301: saut de ligne reel dans un bloc $$...$… — b3009/s301
+- [WARNING] x1 — block 3011 slide 301: saut de ligne reel dans un bloc $$...$… — b3011/s301
+- [WARNING] x1 — block 3025 slide 302: saut de ligne reel dans un bloc $$...$… — b3025/s302
+- [WARNING] x1 — block 3027 slide 302: saut de ligne reel dans un bloc $$...$… — b3027/s302
+- [WARNING] x1 — block 3029 slide 302: saut de ligne reel dans un bloc $$...$… — b3029/s302
+- [WARNING] x1 — block 3031 slide 302: saut de ligne reel dans un bloc $$...$… — b3031/s302
+- [WARNING] x1 — block 3035 slide 302: saut de ligne reel dans un bloc $$...$… — b3035/s302
+- [WARNING] x1 — block 3041 slide 303: saut de ligne reel dans un bloc $$...$… — b3041/s303
+- [WARNING] x1 — block 3043 slide 303: saut de ligne reel dans un bloc $$...$… — b3043/s303
+- [WARNING] x1 — block 3045 slide 303: saut de ligne reel dans un bloc $$...$… — b3045/s303
+- [WARNING] x1 — block 3047 slide 303: saut de ligne reel dans un bloc $$...$… — b3047/s303
+- [WARNING] x1 — block 3049 slide 303: saut de ligne reel dans un bloc $$...$… — b3049/s303
+- [WARNING] x1 — block 3051 slide 303: saut de ligne reel dans un bloc $$...$… — b3051/s303
+- [WARNING] x1 — block 3059 slide 304: saut de ligne reel dans un bloc $$...$… — b3059/s304
+- [WARNING] x1 — block 3063 slide 304: saut de ligne reel dans un bloc $$...$… — b3063/s304
+- [WARNING] x1 — block 3065 slide 305: saut de ligne reel dans un bloc $$...$… — b3065/s305
+- [WARNING] x1 — block 3067 slide 305: saut de ligne reel dans un bloc $$...$… — b3067/s305
+- [WARNING] x1 — block 3069 slide 305: saut de ligne reel dans un bloc $$...$… — b3069/s305
+- [WARNING] x1 — block 3075 slide 306: saut de ligne reel dans un bloc $$...$… — b3075/s306
+- [WARNING] x1 — block 3077 slide 306: saut de ligne reel dans un bloc $$...$… — b3077/s306
+- [WARNING] x1 — block 3079 slide 306: saut de ligne reel dans un bloc $$...$… — b3079/s306
+- [WARNING] x1 — block 3081 slide 306: saut de ligne reel dans un bloc $$...$… — b3081/s306
+- [WARNING] x1 — block 3083 slide 307: saut de ligne reel dans un bloc $$...$… — b3083/s307
+- [WARNING] x1 — block 3085 slide 307: saut de ligne reel dans un bloc $$...$… — b3085/s307
+- [WARNING] x1 — block 3087 slide 307: saut de ligne reel dans un bloc $$...$… — b3087/s307
+- [WARNING] x1 — block 3089 slide 307: saut de ligne reel dans un bloc $$...$… — b3089/s307
+- [WARNING] x1 — block 3091 slide 307: saut de ligne reel dans un bloc $$...$… — b3091/s307
+- [WARNING] x1 — block 3093 slide 307: saut de ligne reel dans un bloc $$...$… — b3093/s307
+- [WARNING] x1 — block 3095 slide 307: saut de ligne reel dans un bloc $$...$… — b3095/s307
+- [WARNING] x1 — block 3097 slide 307: saut de ligne reel dans un bloc $$...$… — b3097/s307
+- [WARNING] x1 — block 3099 slide 308: saut de ligne reel dans un bloc $$...$… — b3099/s308
+- [WARNING] x1 — block 3101 slide 308: saut de ligne reel dans un bloc $$...$… — b3101/s308
+- [WARNING] x1 — block 3105 slide 308: saut de ligne reel dans un bloc $$...$… — b3105/s308
+- [WARNING] x1 — block 3107 slide 308: saut de ligne reel dans un bloc $$...$… — b3107/s308
+- [WARNING] x1 — block 3109 slide 308: saut de ligne reel dans un bloc $$...$… — b3109/s308
+- [WARNING] x1 — block 3113 slide 309: saut de ligne reel dans un bloc $$...$… — b3113/s309
+- [WARNING] x1 — block 3115 slide 309: saut de ligne reel dans un bloc $$...$… — b3115/s309
+- [WARNING] x1 — block 3117 slide 309: saut de ligne reel dans un bloc $$...$… — b3117/s309
+- [WARNING] x1 — block 3121 slide 310: saut de ligne reel dans un bloc $$...$… — b3121/s310
+- [WARNING] x1 — block 3125 slide 310: saut de ligne reel dans un bloc $$...$… — b3125/s310
+- [WARNING] x1 — block 3127 slide 310: saut de ligne reel dans un bloc $$...$… — b3127/s310
+- [WARNING] x1 — block 3129 slide 310: saut de ligne reel dans un bloc $$...$… — b3129/s310
+- [WARNING] x1 — block 3131 slide 311: saut de ligne reel dans un bloc $$...$… — b3131/s311
+- [WARNING] x1 — block 3133 slide 311: saut de ligne reel dans un bloc $$...$… — b3133/s311
+- [WARNING] x1 — block 3135 slide 311: saut de ligne reel dans un bloc $$...$… — b3135/s311
+- [WARNING] x1 — block 3137 slide 311: saut de ligne reel dans un bloc $$...$… — b3137/s311
+- [WARNING] x1 — block 3139 slide 312: saut de ligne reel dans un bloc $$...$… — b3139/s312
+- [WARNING] x1 — block 3141 slide 312: saut de ligne reel dans un bloc $$...$… — b3141/s312
+- [WARNING] x1 — block 3143 slide 312: saut de ligne reel dans un bloc $$...$… — b3143/s312
+- [WARNING] x1 — block 3145 slide 312: saut de ligne reel dans un bloc $$...$… — b3145/s312
+- [WARNING] x1 — block 3147 slide 312: saut de ligne reel dans un bloc $$...$… — b3147/s312
+- [WARNING] x1 — block 3149 slide 312: saut de ligne reel dans un bloc $$...$… — b3149/s312
+- [WARNING] x1 — block 3151 slide 312: saut de ligne reel dans un bloc $$...$… — b3151/s312
+- [WARNING] x1 — block 3153 slide 312: saut de ligne reel dans un bloc $$...$… — b3153/s312
+- [WARNING] x1 — block 3155 slide 313: saut de ligne reel dans un bloc $$...$… — b3155/s313
+- [WARNING] x1 — block 3157 slide 313: saut de ligne reel dans un bloc $$...$… — b3157/s313
+- [WARNING] x1 — block 3159 slide 313: saut de ligne reel dans un bloc $$...$… — b3159/s313
+- [WARNING] x1 — block 3161 slide 313: saut de ligne reel dans un bloc $$...$… — b3161/s313
+- [WARNING] x1 — block 3163 slide 313: saut de ligne reel dans un bloc $$...$… — b3163/s313
+- [WARNING] x1 — block 3165 slide 313: saut de ligne reel dans un bloc $$...$… — b3165/s313
+- [WARNING] x1 — block 3171 slide 314: saut de ligne reel dans un bloc $$...$… — b3171/s314
+- [WARNING] x1 — block 3173 slide 314: saut de ligne reel dans un bloc $$...$… — b3173/s314
+- [WARNING] x1 — block 3175 slide 314: saut de ligne reel dans un bloc $$...$… — b3175/s314
+- [WARNING] x1 — block 3181 slide 315: saut de ligne reel dans un bloc $$...$… — b3181/s315
+- [WARNING] x1 — block 3185 slide 315: saut de ligne reel dans un bloc $$...$… — b3185/s315
+- [WARNING] x1 — block 3187 slide 315: saut de ligne reel dans un bloc $$...$… — b3187/s315
+- [WARNING] x1 — block 3189 slide 315: saut de ligne reel dans un bloc $$...$… — b3189/s315
+- [WARNING] x1 — block 3191 slide 315: saut de ligne reel dans un bloc $$...$… — b3191/s315
+- [WARNING] x1 — block 3193 slide 315: saut de ligne reel dans un bloc $$...$… — b3193/s315
+Resultat: 74 corrigee(s), 0 restante(s)

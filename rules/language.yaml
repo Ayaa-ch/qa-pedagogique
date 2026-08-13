@@ -1,0 +1,40 @@
+# Règles de langue par matière
+# Chaque matière a un topic JSON unique.
+
+subjects:
+
+  - subject: "Arabe"
+    topic: arabe
+    expected_lang: ar
+
+  - subject: "Éducation Islamique"
+    topic: education_islamique
+    expected_lang: ar
+
+  - subject: "Français"
+    topic: francais
+    expected_lang: fr
+
+  - subject: "Mathématiques"
+    topic: math
+    expected_lang: fr
+
+  - subject: "Histoire-Géographie"
+    topic: histoire_geo
+    expected_lang: fr
+
+  - subject: "Physique-Chimie"
+    topic: pc
+    expected_lang: fr
+
+  - subject: "Sciences de la Vie et de la Terre"
+    topic: svt
+    expected_lang: fr
+
+  - subject: "Anglais"
+    topic: anglais
+    expected_lang: en
+
+
+
+
